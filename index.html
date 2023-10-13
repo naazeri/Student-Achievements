@@ -12,9 +12,9 @@
     />
     <meta name="author" content="reza nazeri" />
     <title>دست‌آورد‌های دانشجو‌ها | naazeri</title>
-    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <br />
@@ -23,20 +23,20 @@
       <div id="students-list" class="row g-5 justify-content-center"></div>
     </div>
 
-    <script src="/lib/handlebars/handlebars.min.js"></script>
+    <script src="./lib/handlebars/handlebars.min.js"></script>
     <script id="handlebars-template" type="text/x-handlebars-template">
       {{#each students}}
         <div class='col-auto'>
           <div class='card border-light' style='width: 15rem'>
             <img
-              src='{{#if image}} /image/student/{{image}} {{else}} /image/user-placeholder.png {{/if}}'
+              src='{{#if image}} ./image/student/{{image}} {{else}} ./image/user-placeholder.png {{/if}}'
               class='card-img-top'
               alt='user image'
             />
             <div class='card-body'>
               <h5 class='card-title'>{{name}}</h5>
               <p class='card-text'></p>
-              <a href='/pages/{{slug}}' class='btn btn-outline-light'>
+              <a href='./pages/{{slug}}' class='btn btn-outline-light'>
                 مشاهده دست آورد ها
               </a>
             </div>
