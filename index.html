@@ -2,33 +2,38 @@
 <html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Student</title>
-    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
-    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <header>
-      <h1>صفحه دانش آموزان</h1>
-    </header>
+    <br />
+
     <div class="container text-center">
       <div id="students-list" class="row g-5 justify-content-center"></div>
     </div>
 
-    <script src="./lib/handlebars/handlebars.min.js"></script>
+    <script src="/lib/handlebars/handlebars.min.js"></script>
     <script id="handlebars-template" type="text/x-handlebars-template">
       {{#each students}}
         <div class='col-auto'>
-          <div class='card border-light' style='width: 12rem'>
+          <div class='card border-light' style='width: 15rem'>
             <img
-              src='./image/user-placeholder.png'
+              src='{{#if image}} /image/student/{{image}} {{else}} /image/user-placeholder.png {{/if}}'
               class='card-img-top'
               alt='user image'
             />
             <div class='card-body'>
               <h5 class='card-title'>{{name}}</h5>
               <p class='card-text'></p>
-              <a href='/pages/{{slug}}' class='btn btn-outline-light'>Show Page</a>
+              <a href='/pages/{{slug}}' class='btn btn-outline-light'>
+                مشاهده دست آورد ها
+              </a>
             </div>
           </div>
         </div>
@@ -36,13 +41,21 @@
     </script>
 
     <script>
+      const shuffle = (array) => {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1))
+          ;[array[i], array[j]] = [array[j], array[i]]
+        }
+        return array
+      }
+
       document.addEventListener('DOMContentLoaded', (event) => {
         let data = {
-          students: [
-            { name: 'خادم زاده', slug: 'khadem-zade' },
-            { name: 'studen student st 1', slug: 'student-01' },
-          ],
+          students: [{ name: 'خادم زاده', slug: 'khadem-zade' }],
         }
+
+        data.students = shuffle(data.students)
+
         const template = document.getElementById('handlebars-template')
         const templateFunction = Handlebars.compile(template.innerHTML)
         const completedHtml = templateFunction(data)
