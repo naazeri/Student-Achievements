@@ -27,20 +27,19 @@
     <script id="handlebars-template" type="text/x-handlebars-template">
       {{#each students}}
         <div class='col-auto'>
-          <div class='card border-light' style='width: 15rem'>
-            <img
-              src='{{#if image}} ./image/student/{{image}} {{else}} ./image/user-placeholder.png {{/if}}'
-              class='card-img-top'
-              alt='user image'
-            />
-            <div class='card-body'>
-              <h5 class='card-title'>{{name}}</h5>
-              <p class='card-text'></p>
-              <a href='./pages/{{slug}}' class='btn btn-outline-light'>
-                مشاهده دست آورد ها
-              </a>
+          <a href='./pages/{{slug}}' >
+            <div class='card border-light' style='width: 14rem'>
+              <img
+                src='{{#if image}} ./image/student/{{image}} {{else}} ./image/user-placeholder.png {{/if}}'
+                class='card-img-top'
+                alt='user image'
+              />
+              <div class='card-body'>
+                <h5 class='card-title'>{{name}}</h5>
+                <!-- <p class='card-text'></p> -->
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       {{/each}}
     </script>
