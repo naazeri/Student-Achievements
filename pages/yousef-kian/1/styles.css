@@ -1,0 +1,116 @@
+.cattitle {
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background: #ff0000;
+}
+.mc {
+    height: 300px;
+    border-radius: 10px;
+}
+#mc {
+    background-color: rgb(0, 50, 30);
+    color: white;
+    margin: 0% 3%;
+    border: 3px solid rgb(0, 210, 30);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: url(img/cursor_normal.png), auto;
+}
+#mcdetail {
+    color: white;
+}
+#mcname {
+    letter-spacing: 2px;
+    font-family: 'Arial';
+    font-size: 45px;
+}
+#mcdisc {
+    font-family: arial;
+    font-size: 18px;
+}
+#mclink {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 150, 0);
+    padding: 10px;
+    margin-top: 30px;
+    display: block;
+    border-top: solid 5px rgb(180, 230, 180);
+    border-left: solid 5px rgb(180, 230, 180);
+    border-bottom: solid 5px rgb(0, 30, 0);
+    border-right: solid 5px rgb(0, 30, 0);
+    cursor: url(img/cursor_link.png), auto;
+}
+#mclink:hover {
+    background-color: rgb(0, 130, 0);
+}
+#nowplaying {
+    background-color: rgb(255, 150, 50);
+    color: black;
+}
+.gamesholder {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 310px 310px;
+}
+.gameimg {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.gamesname {
+    font-family: arial;
+    font-weight: 700;
+}
+.gamedisc {
+    font-family: arial;
+    font-size: 16px;
+}
+.gamelink {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    margin: 5% 2%;
+}
+.gamesname2 {
+    font-family: arial;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#liketoplay {
+    background-color: rgb(0, 150, 255);
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+footer a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+footer img {
+    width: 32px;
+}
+.gamelink:hover {
+    text-decoration: underline;
+    color: rgb(0, 100, 200);
+}
