@@ -1,0 +1,15 @@
+@font-face {
+    font-family: sobi;
+    src: url(font/SpeedBeast.ttf) format("ttf");
+}
+body{
+    background-image:url('img/gg.png'); 
+}
+.icon{
+    display: inline;
+    margin: 0 31%;
+}
+.pic{
+    margin: 80px 11px;
+    max-width: 50px;
+}
