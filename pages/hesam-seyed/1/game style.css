@@ -1,0 +1,37 @@
+#Br{
+    border-radius: 10px;
+    border: solid 10px;
+    border-color: red;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+    padding: 25px;
+    color: green;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: green;
+    background-color: black;
+}
+.mq{
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+    border: solid 2.5px;
+    border-color: black ;
+    font-size: 25px;
+    
+    
+}
+.mq:hover{
+   box-shadow: 1px 1px 8px aliceblue;
+}
+#la{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pa{
+    width: 250px;
+}

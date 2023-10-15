@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta
-      name="description"
-      content="دست آورد ها و افتخارات دانشجو های عزیزم"
-    />
-    <meta name="author" content="reza nazeri" />
-    <title>دست‌آورد‌های دانشجو‌ها | naazeri</title>
-    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body>
-    <br />
 
-    <div class="container text-center">
-      <div id="students-list" class="row g-5 justify-content-center"></div>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="دست آورد ها و افتخارات دانشجو های عزیزم" />
+  <meta name="author" content="reza nazeri" />
+  <title>دست‌آورد‌های دانشجو‌ها | naazeri</title>
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
 
-    <script src="./lib/handlebars/handlebars.min.js"></script>
-    <script id="handlebars-template" type="text/x-handlebars-template">
+<body>
+  <br />
+
+  <div class="container text-center">
+    <div id="students-list" class="row g-5 justify-content-center"></div>
+  </div>
+
+  <script src="./lib/handlebars/handlebars.min.js"></script>
+  <script id="handlebars-template" type="text/x-handlebars-template">
       {{#each students}}
         <div class='col-auto'>
           <a href='./pages/{{slug}}' >
@@ -44,33 +40,35 @@
       {{/each}}
     </script>
 
-    <script>
-      const shuffle = (array) => {
-        for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1))
+  <script>
+    const shuffle = (array) => {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1))
           ;[array[i], array[j]] = [array[j], array[i]]
-        }
-        return array
+      }
+      return array
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+      let data = {
+        students: [
+          { name: 'پرهام خادم زاده', slug: 'parham-khadem-zade' },
+          { name: 'یوسف کیان', slug: 'yousef-kian' },
+          { name: 'پارسا ظهیری', slug: 'parsa-zahiri' },
+          { name: 'حسام سید', slug: 'hesam-seyed' },
+        ],
       }
 
-      document.addEventListener('DOMContentLoaded', (event) => {
-        let data = {
-          students: [
-            { name: 'پرهام خادم زاده', slug: 'parham-khadem-zade' },
-            { name: 'یوسف کیان', slug: 'yousef-kian' },
-            { name: 'پارسا ظهیری', slug: 'parsa-zahiri' },
-          ],
-        }
+      data.students = shuffle(data.students)
 
-        data.students = shuffle(data.students)
+      const template = document.getElementById('handlebars-template')
+      const templateFunction = Handlebars.compile(template.innerHTML)
+      const completedHtml = templateFunction(data)
 
-        const template = document.getElementById('handlebars-template')
-        const templateFunction = Handlebars.compile(template.innerHTML)
-        const completedHtml = templateFunction(data)
+      const app = document.getElementById('students-list')
+      app.innerHTML = completedHtml
+    })
+  </script>
+</body>
 
-        const app = document.getElementById('students-list')
-        app.innerHTML = completedHtml
-      })
-    </script>
-  </body>
 </html>
