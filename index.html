@@ -23,11 +23,11 @@
   <script id="handlebars-template" type="text/x-handlebars-template">
       {{#each students}}
         <div class='col-auto'>
-          <a href='./pages/{{slug}}' >
+          <a href='./p/{{slug}}' >
             <div class='card border-light' style='width: 14rem'>
               <img
-                src='{{#if image}} ./image/student/{{image}} {{else}} ./image/user-placeholder.png {{/if}}'
-                class='card-img-top'
+                src='{{#if image}} ./image/student/{{slug}}.{{image}} {{else}} ./image/user-placeholder.png {{/if}}'
+                class='card-img-top user-image'
                 alt='user image'
               />
               <div class='card-body'>
@@ -56,6 +56,7 @@
           { name: 'یوسف کیان', slug: 'yousef-kian' },
           { name: 'پارسا ظهیری', slug: 'parsa-zahiri' },
           { name: 'حسام سید', slug: 'hesam-seyed' },
+          // { name: 'حسام سید', slug: 'hesam-seyed', image: 'jpg' },
         ],
       }
 

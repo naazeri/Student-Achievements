@@ -5,3 +5,7 @@ body {
 a {
   text-decoration: none;
 }
+
+.user-image {
+  aspect-ratio: 1/1;
+}
