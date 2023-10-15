@@ -31,7 +31,7 @@
                 alt='user image'
               />
               <div class='card-body'>
-                <h5 class='card-title'>{{name}}</h5>
+                <h5 class='card-title'>{{firstName}} {{lastName}}</h5>
                 <!-- <p class='card-text'></p> -->
               </div>
             </div>
@@ -52,17 +52,16 @@
     document.addEventListener('DOMContentLoaded', (event) => {
       let data = {
         students: [
-          { name: 'پرهام خادم زاده', slug: 'parham-khadem-zade' },
-          { name: 'یوسف کیان', slug: 'yousef-kian' },
-          { name: 'پارسا ظهیری', slug: 'parsa-zahiri' },
-          { name: 'حسام سید', slug: 'hesam-seyed' },
-          { name: 'امیرعلی یاراحمدی', slug: 'amirali-yarahmadi' },
-          { name: 'علی نجات', slug: 'ali-nejat', image: true },
-          // { name: 'حسام سید', slug: 'hesam-seyed', image: 'jpg' },
+          { firstName: 'پرهام', lastName: 'خادم زاده', slug: 'parham-khadem-zade', image: false },
+          { firstName: 'یوسف', lastName: 'کیان', slug: 'yousef-kian', image: false },
+          { firstName: 'پارسا', lastName: 'ظهیری', slug: 'parsa-zahiri', image: false },
+          { firstName: 'حسام', lastName: 'سید', slug: 'hesam-seyed', image: false },
+          { firstName: 'امیرعلی', lastName: 'یاراحمدی', slug: 'amirali-yarahmadi', image: false },
+          { firstName: 'علی', lastName: 'نجات', slug: 'ali-nejat', image: true },
         ],
       }
 
-      data.students = shuffle(data.students)
+      data.students.sort((a, b) => a.lastName.localeCompare(b.lastName))
 
       const template = document.getElementById('handlebars-template')
       const templateFunction = Handlebars.compile(template.innerHTML)
