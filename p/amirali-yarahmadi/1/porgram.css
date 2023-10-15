@@ -1,0 +1,101 @@
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 60px;
+    color: #4d6b99;
+}
+li{
+    font-size: 25px;
+    text-align: center;
+    color:#552c96;
+}
+img{
+    margin: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.titr{
+color:#4d6b99;
+}
+button{height: 36px;
+width: 75px;
+background-color: #66ccff;
+position: absolute;
+margin: 0;
+left: 0;
+right: 100;
+bottom: 0;
+top: 0;
+font-size: 14px;
+border: none;
+padding: 11px;
+color: white;
+text-decoration: none;
+border-radius: 10px 10px;
+box-shadow: 0px 8px 0px #0099e6,opx 8px 20px #222222;
+transition: all 0.15 ease;
+}
+button:hover{
+    box-shadow: 0px 5px 0px #0099e6, 0px 8px 20px #222222;
+    top: 7px;
+    background-color: #66ccffda;
+}
+button:active{
+    box-shadow: none;
+    top: 10px;
+    
+}
+img{
+    height: 36px;
+    width: 75px;
+    margin: auto;
+    left: 0;
+    right: 100;
+    bottom: 0;
+    top: 0;
+    font-size: 14px;
+    border: none;
+    padding: 11px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px 10px;
+    box-shadow: 0px 8px 0px #0099e6,opx 8px 20px #222222;
+    transition: all 0.15 ease;
+
+}
+img:hover{
+    box-shadow: 0px 5px 0px #7d0101, 0px 8px 20px #851515;
+    top: 7px;
+        transform: scale(1.06);
+}
+img:active{
+      box-shadow: none;
+    top: 10px;
+}
+input[type=email],[type=password],[type=submit]{
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+input[type=email]:hover{
+    background-color:#e4ebe4;
+}
+input[type=password]:hover{
+    background-color: #e4ebe4;
+}
+
+div{
+    background-color: white;
+   margin: auto;
+   width: 350px;
+   height: 300px;
+   padding: 50px;
+   text-align: center;
+
+}
