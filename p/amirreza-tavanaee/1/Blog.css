@@ -1,0 +1,296 @@
+body {
+    font-family: tahoma;
+    margin: 20px;
+}
+
+header{
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.title1 {
+    font-size: 25px;
+    font-weight: bold;
+    background: rgb(255, 0, 0);
+    border: 1px rgb(7, 7, 7) solid;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.darling-in-the-franxx {
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.darling-img {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+    align-items: center;
+}
+
+.darling-rank {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.your-lie-in-april{
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.your-lie-in-april-img{
+    border: 2px solid red;
+    height: 300px;
+    border-image: solid black;
+    border-radius: 10px
+}
+.your-lie-in-april-rank{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.attack-on-titan {
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.attack-on-titan-img {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.attack-on-titan-rank {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.akame-ga-kill{
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.akame-ga-kill-img{
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.akame-ga-kill-rank{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.TQQ{
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.TQQ-img{
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.TQQ-rank{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.domestic-girlfriend {
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.domestic-girlfriend-img {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.domestic-girlfriend-rank {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.Eighty-Six {
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.Eighty-Six-img {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.Eighty-Six-rank {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.chainsaw-man {
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.chainsaw-man-img {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.chainsaw-man-rank {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.death-note {
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.death-note-img {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.death-note-rank {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.oshi-no-ko {
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+.oshi-no-ko-img {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.oshi-no-ko-rank {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+.Anime-Table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+hr {
+    height: 3px;
+  background-color: black;
+}
+
+.Anime-Table {
+    border-collapse: collapse;
+  width: 100%;
+}
+
+.Anime-Table td,
+.Anime-Table th {
+    border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.Anime-Table tr:nth-child(even) {
+    background-color: #dddddd;
+}
