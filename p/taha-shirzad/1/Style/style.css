@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Forte;
+    src: url(./Font/FORTE.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Base{
+    background-blend-mode: multiply;
+    background-color: rgb(53, 53, 53);
+    background-image:url(./images/Backgrund.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Logo-img{
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+}
+.name{
+    font-size: 50px;
+    font-family: Forte;
+    display: block;
+    color: white;
+    text-align: center;
+}
+.Logo-link{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.Gmail{
+    margin: 5px;
+    width: 5%;
+    height: 5%;
+}
+.instagram{
+    margin: 5px;
+    width: 5%;
+    height: 5%;
+}
+.reddit{
+    margin: 5px;
+    width: 5%;
+    height: 5%;
+}
+.telegram{
+    margin: 5px;
+    width: 5%;
+    height: 5%;
+}
+.twitter{
+    margin: 5px;
+    width: 5%;
+    height: 5%;
+}
