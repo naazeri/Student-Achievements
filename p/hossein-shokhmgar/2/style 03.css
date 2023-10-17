@@ -1,0 +1,111 @@
+body{
+    background-image: url(image/wallpaperflare.com_wallpaper.jpg);
+    margin: 0%;
+    
+}
+.hossein{
+    color: rgba(255, 255, 255, 0.418);
+    font-family: 'alpha';
+    transform: rotate(-0deg);
+    background-image: url(image/);
+        
+    
+    height: 100px;
+    
+    
+
+
+   
+
+    
+    
+
+}
+.aaaa{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: ;
+  width: 200px;
+  
+   
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.747);
+    height: 941px;
+}
+@font-face {
+    font-family:'alpha' ;
+    src: url(font/ALPHABETPONY-REGULAR.TTF);
+    
+}
+.kkkk{
+    color: rgb(255, 0, 157);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 500in;
+    padding-right: 255px;
+    position: static;
+
+    
+     
+    
+
+}
+
+
+.telegram{
+    color: rgb(0, 140, 255);
+    display: block;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: -60px;
+   padding: 150px;
+   position: static;
+   right: 780px;
+    
+
+
+}
+.youtube{
+    color: rgb(255, 0, 0);
+    display: block;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: -600px;
+   padding: 150px;
+   position: static;
+
+    
+    
+    
+
+}
+
+
+    
+   
+     
+}
+    .block {
+        position: fixed;
+        padding: 20px;
+        width: 400px;
+      
+        
+    }
+    
+    .wt{
+        color: rgb(30, 255, 0);
+        display: block;
+        margin-left:auto ;
+        margin-right:auto ;
+        margin-top: -600px;
+        padding: auto;
+        position: static;   
+        padding-left: 250px;
+        padding-top: 511px;
+    
+
+
