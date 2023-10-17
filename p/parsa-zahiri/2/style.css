@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+body {
+  background-image: url(7368744_3586947.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.personality-info {
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+}
+.personality-info img {
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 10px 10px 20px 10px rgb(0, 0, 0);
+}
+.personality-info p {
+  font-size: medium;
+}
+.background-Workings #bm {
+  margin-top: 40px;
+  padding: 5px;
+  border: none;
+  background-color: crimson;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 5px rgb(0, 0, 0);
+  color: snow;
+  transform: matrix3d();
+  transition: all 0.5s;
+}
+.background-Workings #bm :hover {
+  background-color: rgb(174, 0, 255);
+  margin: -10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: snow;
+  transition: all 0.5s;
+}
+.background-Workings a {
+  color: snow;
+}
+.links {
+  margin-top: 100px;
+  display: inline-block;
+}
+.links #tel {
+  color: rgb(0, 183, 255);
+  border-radius: 10%;
+  padding: 10px;
+  transition: all 0.5s;
+}
+.links #tel :hover {
+  transition: all 0.5s;
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+  padding: 20px;
+}
+.links #wha {
+  color: rgb(60, 255, 0);
+  border-radius: 10%;
+  padding: 10px;
+}
+.links #wha :hover {
+  transition: all 0.5s;
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+  padding: 20px;
+}
+.links #ins {
+  color: rgb(255, 60, 0);
+  border-radius: 10%;
+  padding: 10px;
+}
+.links #ins :hover {
+  transition: all 0.5s;
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+  padding: 20px;
+}
+.links #dis {
+  color: rgb(4, 0, 216);
+  border-radius: 10%;
+  padding: 10px;
+}
+.links #dis :hover {
+  transition: all 0.5s;
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+  padding: 20px;
+}
+.links #ste {
+  color: rgb(0, 0, 0);
+  border-radius: 10%;
+  padding: 10px;
+}
+.links #ste :hover {
+  transition: all 0.5s;
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+  padding: 20px;
+}
+.links #you {
+  color: rgb(255, 0, 55);
+  border-radius: 10%;
+  padding: 10px;
+}
+.links #you :hover {
+  transition: all 0.5s;
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+  padding: 20px;
+}
