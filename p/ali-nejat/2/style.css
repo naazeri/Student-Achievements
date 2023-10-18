@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image:url(cover_bg_3\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    margin:0 44%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 20px;
+    }
+}
+.profile{
+
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+
+}
+
+.back-img{
+width: 100vw;
+height: 100vh;
+    text-align: center;
+   
+}
+.icons{
+
+    display: inline;
+    margin:auto;
+    text-align: center;
+
+}
+.img{
+    background-color: rgb(181, 237, 245);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 200px;
+    max-width: 60px;
+
+}
