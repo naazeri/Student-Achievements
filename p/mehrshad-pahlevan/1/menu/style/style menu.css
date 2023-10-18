@@ -3,37 +3,49 @@
   src: url(../font/ITCBLKAD.TTF);
 }
 
+body {
+  margin: 0;
+}
+
 /* header */
 header {
-  background-image: url(../../style/image/back\ ground.jpg);
+  background-image: url(../../style/image/header-bg.jpg);
   background-size: cover;
-  background-position: 50px;
+  background-position: center;
   background-repeat: no-repeat;
 }
+
 .home {
   border: 2px #c0c0c0 solid;
   color: #c0c0c0;
   padding: 5px;
 }
+
 a {
   text-decoration: none;
 }
+
 .all-header {
-  color: #c0c0c0;
+  color: white;
+  text-align: center;
   background-color: rgba(161, 161, 161, 0.8);
 }
+
 .site-name {
   margin: 30px;
   display: inline;
 }
+
 .name {
   display: inline;
 }
+
 .clik {
   margin: 0 50%;
   text-align: center;
   display: inline-block;
 }
+
 /* body */
 .fav-cars {
   background-image: url(../../style/image/bg.jpg);
@@ -44,26 +56,32 @@ a {
   margin: 25px 10px;
   font-family: "ITCBLKAD";
 }
+
 .photo {
   width: 800px;
   display: inline;
 }
+
 .logo-cars {
   width: 400px;
   display: inline-block;
 }
+
 .logo-cars-1 {
   width: 600px;
   display: inline-block;
 }
+
 .logo-cars-3 {
   width: 600px;
   display: inline-block;
 }
+
 .logo-cars2 {
   width: 45%;
   display: inline-block;
 }
+
 .lorem {
   background-color: #e7e7e7;
   padding: 10px;
@@ -74,6 +92,7 @@ a {
   width: 50%;
   font-size: 25px;
 }
+
 .number {
   text-align: center;
   display: block;
@@ -83,36 +102,51 @@ a {
   color: gray;
   font-size: 25px;
 }
+
 .back {
   text-align: center;
   margin: 30px 25px;
 }
+
 .clik-back {
-  border: 2px coral solid;
-  color: coral;
-  padding: 5px;
+  font-size: 20px;
+  background-color: #a1a1a1;
+  border: 2px #a1a1a1 solid;
+  color: white;
+  padding: 10px 10px;
+  display: inline-block;
 }
+
 .all {
   display: inline-block;
-  background-color: rgb(217, 217, 217);
+  background-image: url(../../style/image/back-ground-body.jpg);
 }
-.dokmeh {
-  margin: 25px;
-  font-size: 25px;
-  background-color: rgb(161, 161, 161);
-  padding: 0 10px;
-}
+
 form {
   font-size: 25px;
 }
+
+.dokmeh {
+  text-align: center;
+  background-color: #a1a1a1;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+}
+
+.nazar-sanji {
+  border: 2px black solid;
+  margin: 5px;
+}
+
 /* footer */
 footer {
-  background-image: url(../../style/image/back\ ground.jpg);
-  background-position: 50px;
+  background-image: url(../../style/image/footer-bg.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: cover;
 }
+
 .hagh {
   background-color: rgba(161, 161, 161, 0.8);
   font-size: 20px;
@@ -122,6 +156,7 @@ footer {
 .logo {
   width: 50px;
 }
+
 .ertebat {
-  color: #c0c0c0;
+  color: white;
 }
