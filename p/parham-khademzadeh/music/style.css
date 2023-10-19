@@ -1,0 +1,70 @@
+body {
+    background-image: url(img/pattern.avif);
+    font-family: tahoma;
+    margin: 0px;
+}
+/* ------------------------------- */
+/* HEADER CONFIG */
+header {
+    text-align: center;
+    background-color: white;
+}
+.title-1 {
+    color: blue;
+}
+/* ------------------------------ */
+/* RED DEAD CONFIG */
+.card {
+    text-align: center;
+    color: red;
+    border: 4px whitesmoke solid;
+    border-radius: 26px;
+    padding-bottom: 35px;
+    margin: 21px 31px;
+}
+.rdr2-img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+.rdr2-audio {
+    width: 305px;
+}
+/* -------------------------------- */
+/* GTA V CONFIG */
+.card {
+    text-align: center;
+    color: greenyellow;
+}
+.gta-img {
+    margin: 10px;
+    width: 200px
+}
+.gta-audio {
+    width: 305px;
+    margin: 0 auto;
+    display: block;
+}
+/* ------------------------------------- */
+/* THE LAST OF US CONFIG */
+.card {
+    text-align: center;
+    color: green;
+}
+.tlou-img {
+    width: 205px;
+    margin: 10px;
+}
+.tlou-audio {
+    width: 305px;
+    margin: 0 auto;
+    display: block;
+}
+/* -------------------------------------- */
+/* FOOTER CONFIG */
+footer {
+    text-align: center;
+    background-color: rgb(66, 64, 64);
+    padding: 17px 0px;
+    margin-top: 1px;
+    color: red;
+}
