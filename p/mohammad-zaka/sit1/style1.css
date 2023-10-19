@@ -1,0 +1,69 @@
+body {
+  background-image:url(img/abstract-background-template-modern-bright-white-swirled-deco-Top.jpg);
+background-repeat: round;
+}
+header {
+    text-align: center;
+    background: rgb(0, 26, 255);
+    padding: 5px 0px;
+    border: 10px solid;
+    border-radius: 20px;
+    margin: 50px;
+  }
+  .title1 {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+  }
+  .list{
+    list-style-type: none;
+  }
+  .card {
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    margin: 20PX 30PX;
+    background-color:rgb(121, 127, 248);
+  }
+  .title {
+    color: black;
+    font-size: 30px;
+  }
+  .imge {
+    width: 70%;
+    height: 70%;
+    border-radius: 200px;
+    border: 3px black solid;
+
+  }
+  .description {
+    text-align: center;
+    font-size: 20px;
+    direction: rtl;
+  }
+  .rank {
+    font-weight: bold;
+    background: whitesmoke;
+    border: 3px black solid;
+    border-radius: 30px;
+    display: inline-table;
+    padding: 13px;
+  }
+
+    footer{
+        text-align: center;
+        background: rgb(116, 119, 250);
+        padding: 5px 0px;
+        border: 10px solid;
+        border-radius: 20px;
+    }
+  .tex-green{
+    color: green;
+  }
+  .tex-red{
+    color: red;
+  }
+
