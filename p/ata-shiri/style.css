@@ -1,0 +1,51 @@
+div{
+    font-size:larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Size{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+h3{
+    color:blue;
+}
+h2{
+    color: white;
+    border: 1px rgb(47, 0, 255)double;
+    border-radius: 50px;
+    border-width: 10px;
+    display: initial;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color:blue
+}
+body{
+    \background:url(Background.jfif);
+    \background-size:cover;
+\background-repeat:no-repeat;
+\background-attachment:fixed;
+\margin: 0px;
+}
+span{
+    color: yellow;
+}
+header{
+    text-align: center;
+    background: black;
+    padding: 1px;
+}
+footer{
+    background: black;
+}
+img{
+    border: 10px rgb(47, 0, 255) double;
+    border-radius: 50px;
+}
+audio{
+    margin-right: 40%;
+}

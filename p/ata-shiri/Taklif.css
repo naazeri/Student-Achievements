@@ -1,0 +1,24 @@
+body{
+    background:url(html-color-codes-color-tutorials.jpg);
+    background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin: 0px;
+}
+img{
+    width:400px;
+    border-radius: 50%;
+    border: 10px rgb(0, 0, 0) double;}
+div{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a{
+    width: 7%;
+    height: 7%;
+    margin-left: 15%
+}
+a{
+    width: 7%;
+    height: 7%;
+}

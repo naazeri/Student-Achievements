@@ -65,9 +65,11 @@
           { firstName: 'محمد', lastName: 'ذکاء', slug: 'mohammad-zaka', image: true },
           { firstName: 'حسین', lastName: 'شخم گر', slug: 'hossein-shokhmgar', image: true },
           { firstName: 'امیدرضا', lastName: 'خالقی', slug: 'omidreza-khaleghi', image: true },
+          { firstName: 'سید عطا', lastName: 'شیری', slug: 'ata-shiri', image: true },
         ],
       }
 
+      // sort students by family name
       data.students.sort((a, b) => a.lastName.localeCompare(b.lastName))
 
       const template = document.getElementById('handlebars-template')
