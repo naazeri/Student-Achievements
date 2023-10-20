@@ -1,0 +1,37 @@
+body{
+ background: url(wwe.jpg);
+ background-size: cover;
+}
+.Aj{
+width: 400px;
+margin-top: 280px;
+border: rgb(43, 1, 150) 200px;
+margin-left:50px ;
+} 
+.Aj{
+    border-radius: 18%;
+    border: groove yellow 150 px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif ;
+    margin-left: 140px;
+}
+.all{
+    display: flex;
+}
+.logo{
+    color: rgb(0, 243, 231);
+    margin-left:120px; 
+    margin-top: 340px;
+    width:40%;
+    height: 40%;
+}
+.Background{
+    width: 235px;
+    height: 50px;
+    margin-left:-240px;
+    margin-top: 340px;
+    color: rgb(0, 243, 231);   
+}
+
