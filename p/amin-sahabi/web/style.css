@@ -1,0 +1,105 @@
+.text-red {
+    color: blueviolet;
+    font-family: tahoma;
+   
+}
+.text {
+    color: rgb(64, 133, 133);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+body {
+  background-image: url(ing/946\ [Converted].jpg);  
+  background-size: 500px;
+}
+header {
+   background-image: url(ing/AS.jpg);
+   background-size: 1100px;
+   background-attachment: fixed;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   margin: 0px;
+   text-align: center;
+   color: aliceblue;
+   font-family: tahoma;
+   border: 10px black solid;
+   border-radius: 50px;
+}
+.a {
+    color: rgb(216, 134, 11);
+}
+.gt {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+font-size: xx-large;
+
+}
+.last {
+    width: 400px;
+}
+.of {
+    font-family: tahoma;
+    font-weight: bold;
+    text-align: center;
+}
+.ofus {
+    font-family: tahoma;
+
+}
+.ba {
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+.bad {
+    width: 400px;
+}
+.tlf {
+    font-weight: bold;
+    background: rgb(238, 214, 235);
+    border: 1px gray solid;
+    border-radius: 20px;
+    display: inline;
+    padding: 10px;
+    color: rgb(9, 225, 60);
+}
+.game-list {
+    list-style-type: none;
+    text-align: center;
+}
+.the {
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    margin: 20px 400px;
+    background-color: rgb(255, 255, 255);
+}
+.move {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.move td,
+.move th {
+    border: 1px solid #0c0c0c;
+    text-align: left;
+    padding: 8px;
+}
+.move tr:nth-child(even) {
+    background-color: #b379b9;
+}
+.fot {
+    background-color: rgb(246, 191, 221);
+    padding: 5px;
+    margin: 50px 0px;
+    text-align: center;
+}
+.text-a {
+    font-family: tahoma;
+    color: #9850e6;
+}
