@@ -75,7 +75,10 @@
       }
 
       // sort students by family name
-      data.students.sort((a, b) => a.lastName.localeCompare(b.lastName))
+      // data.students.sort((a, b) => a.lastName.localeCompare(b.lastName))
+
+      // randomize order
+      data.students = shuffle(data.students)
 
       const template = document.getElementById('handlebars-template')
       const templateFunction = Handlebars.compile(template.innerHTML)
