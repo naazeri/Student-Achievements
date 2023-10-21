@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+}
+#bg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background: radial-gradient(rgb(120, 0, 0), rgb(70, 0, 0), rgb(120, 0, 0), rgb(70, 0, 0), rgb(120, 0, 0), rgb(70, 0, 0));
+}
+#container {
+    margin-top: 150px;
+    width: 90%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, .1);
+    border: solid 3px rgb(255, 170, 170);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#propic {
+    border: solid 2px rgb(255, 170, 170);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+}
+#name {
+    color: white;
+    display: flex;
+    letter-spacing: 4px;
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 700;
+}
+#c1 {
+    transform: rotate(30deg);
+}
+#c2 {
+    margin-top: 13px;
+    transform: rotate(25deg);
+}
+#c3 {
+    margin-top: 22px;
+    transform: rotate(15deg);
+}
+#c4 {
+    margin-top: 29px;
+    transform: rotate(10deg);
+}
+#c5 {
+    margin-top: 35px;
+    transform: rotate(5deg);
+}
+#c6 {
+    margin-top: 37px;
+    margin-right: 5px;
+}
+#c6-5 {
+    margin-top: 35px;
+}
+#c7 {
+    margin-top: 32px;
+    transform: rotate(-15deg);
+}
+#c8 {
+    margin-top: 25px;
+    transform: rotate(-20deg);
+}
+#c9 {
+    margin-top: 16px;
+    transform: rotate(-25deg);
+}
+#c10 {
+    transform: rotate(-30deg);
+}
+#social {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+#instaborder {
+    width: 150px;
+    height: 15px;
+    background-image: linear-gradient(rgb(190, 30, 0), rgb(50, 20, 0));
+}
+#insta {
+    background-color: rgb(190, 30, 0);
+    width: 150px;
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
+#redditborder {
+    width: 150px;
+    height: 15px;
+    background-image: linear-gradient(rgb(170, 0, 0), rgb(50, 0, 0));
+}
+#reddit {
+    background-color: rgb(170, 0, 0);
+    width: 150px;
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
+#waborder {
+    width: 150px;
+    height: 15px;
+    background-image: linear-gradient(rgb(50, 0, 0), rgb(20, 0, 0));
+}
+#wa {
+    background-color: rgb(50, 0, 0);
+    width: 150px;
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
