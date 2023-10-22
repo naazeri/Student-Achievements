@@ -1,0 +1,52 @@
+#size {
+   width: 250px;
+
+}
+.prof {
+   text-align: center;
+   background-color: #011927de;
+   height: 100%;
+   box-shadow: 0px 20px 20px 20px rgb(0, 0, 0);
+   
+
+
+
+}
+
+html,
+body {
+   height: 100%;
+   background-position: center;
+}
+
+body {
+   background: url(caseroom.PNG);
+   margin: 0;
+   background-repeat: round;
+   background-repeat: round repeat;
+   background-repeat: no-repeat round
+
+}
+
+.name {
+   color: white;
+}
+
+.icon-white {
+   color: whitesmoke;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+#qe {
+   font-size: 50px;
+   color: white;
+}
+
+.ga-fp {
+   border-radius: 100px;
+
+}

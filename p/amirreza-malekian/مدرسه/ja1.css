@@ -1,0 +1,27 @@
+#size{
+    width:   140px;
+    height: 140px;
+}
+.online{
+    color: cyan;
+}
+.offline{
+    color: darkmagenta;
+}
+body{
+    background:url(download\ \(2\).jfif)   
+}
+#tele{
+    width: 10px;
+    height: 10px;
+}
+.salam {
+    border: solid 10px;
+    border-color: chartreuse;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius:100px;
+    margin-right: 700px;
+    margin-left: 700px;
+}
