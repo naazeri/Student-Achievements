@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url(/image/retro-futuristic-80s-background-free-vector.jpg);
+    
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-1{
+
+  
+    text-align: center;
+}
+.bag{
+    background-color: rgba(40, 2, 175, 0.658);
+ 
+  background-size: cover;
+}
+.img{
+    width: 15%;
+    border: 10px solid ;
+    border-radius: 500px;
+  
+}
+.img1{
+    text-align: center;
+    
+  
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-style: bold ;
+}
+.icon{
+    width: 4%;
+}
+.ico{
+    text-align: center;
+}
+.icon1{
+    width: 4%;
+padding-right: 80px;
+}
+.icon2{
+    width: 4%;
+    padding-right: 80px;
+}
+.icon3{
+    width: 4%;
+   
+}
+.icon0{
+    padding-right: 80px;
+    width: 4%;
+   
+}
