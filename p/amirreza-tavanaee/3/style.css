@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:chartreuse;
+    font-family: 'ebrima';
+}
+
+@font-face {
+    font-family: 'ebrima';
+    src: url(./ebrimabd.ttf);
+}
+
+.Calculator {
+    border-collapse: separate;
+    width: 300px;
+    margin: auto;
+    border-spacing: 10px;
+}
+
+.seven {
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.eight {
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.nine {
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.del {
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.Calculator tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+hr {
+    height: 3px;
+  background-color: black;
+}
+
+.Calculator td,
+.Calculator th {
+    border: 3px solid #0141ff;
+  text-align: center;
+  padding: 8px;
+}
+
+.num {
+    margin: auto;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin-bottom: 10px;   
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+    width: 290px;
+}
+.x {
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.y {
+    border: none;
+    padding: 15px 15px;
+}
+
+button:active {
+    color: red;
+}
