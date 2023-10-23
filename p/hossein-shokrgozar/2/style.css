@@ -1,0 +1,37 @@
+@font-face {
+    font-family:'BNazanin' ;
+    src: url(font/BNazanin.ttf);
+}
+body{
+    
+    background-image: url(image/pattern.png);
+    margin: 0;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.back{
+    background-color: rgba(0, 0, 0, 0.374);
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340;
+    text-align: center;
+
+    
+}
+.icon{
+    width: 60px;
+}
+.socials{
+    text-align: center;
+}
+
