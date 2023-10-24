@@ -1,0 +1,31 @@
+body {
+  background-image: url(j1/images/images/4k\ city\ image.jpg);
+  background-size: cover;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+.card {
+  text-align: center;
+  display: block;
+}
+
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 500;
+}
+
+.logo {
+  color: rgb(0, 0, 0);
+  width: 3%;
+  height: 22%;
+  margin-left: 470px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: -350px;
+}
