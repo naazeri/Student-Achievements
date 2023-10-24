@@ -20,11 +20,11 @@ body {
     height: 100vh;
     width: 100vw;
     background: #f3030328;
+    padding-top: 160px;
 }
 
 .box {
     margin: auto;
-    margin-top: 160px;
     border: 12px double #000000;
     background-color: #3d4543;
     height: 300px;
