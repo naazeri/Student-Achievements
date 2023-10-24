@@ -1,0 +1,114 @@
+body {
+  font-family: tahoma;
+  background-color: rgb(249, 214, 220);
+  margin: 0;
+}
+
+.title1 {
+  color: rgb(18, 204, 18);
+}
+
+.title2 {
+  color: rgb(154, 26, 26);
+}
+
+.title3 {
+  color: rgb(249, 214, 220);
+}
+
+header {
+  text-align: center;
+  background-color: rgb(20, 7, 7);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 5px 0px;
+}
+
+.game-image {
+  width: 440px;
+
+}
+
+.game-card {
+  text-align: center;
+  border: 2px black solid;
+  border-radius: 15px;
+  padding-left: 60px;
+  padding-right: 30px;
+  padding-bottom: 35px;
+  margin: 10px 28px;
+  width: 40%;
+  display: inline-table;
+}
+
+.description1 {
+  display: inline-block;
+
+}
+
+.game-title {
+  font-size: 24px;
+}
+
+.game-description {
+  text-align: right;
+  direction: rtl;
+}
+
+.game-rank {
+  font-weight: bold;
+  background: whitesmoke;
+  border: 1px gray solid;
+  border-radius: 20px;
+  display: inline;
+  padding: 10px;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid #c5c5c5;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e2e2e2;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: rgba(255, 0, 0, 0.863);
+}
+
+.text-yellowgreen {
+  color: yellowgreen
+}
+
+.text-yellow {
+  color: yellow
+}
+
+footer {
+  text-align: center;
+  background: #ddd;
+  padding: 10px 0px;
+  margin-top: 50px;
+}
+
+.right {
+  align-items: end;
+}
