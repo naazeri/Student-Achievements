@@ -1,0 +1,104 @@
+body {
+  font-family: tahoma;
+  background-image: url(image/How-to-Become-a-Programmer.jpg);
+  
+}
+
+header {
+  text-align: center;
+  background: #040404;
+  padding: 5px;
+}
+
+.title1 {
+  font-size: 28px;
+  color: rgb(133, 0, 0);
+  font-weight: bold;
+}
+
+.title2 {
+  color: rgb(132, 0, 0);
+}
+
+.game-card {
+  text-align: center;
+  border: 2px rgb(195, 185, 185) solid;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 35px;
+  margin: 20px 30px;
+  background-color: rgb(193, 183, 183);
+}
+
+.game-title {
+  font-size: 24px;
+}
+
+.game-image {
+  width: 100px;
+}
+
+.game-description {
+  text-align: right;
+  direction: rtl;
+}
+
+.game-rank {
+  font-weight: bold;
+  background: rgb(0, 0, 0);
+  border: 1px rgb(204, 192, 192) solid;
+  border-radius: 20px;
+  display: inline;
+  padding: 10px;
+}
+
+hr {
+  height: 3px;
+  background-color: rgb(190, 9, 9);
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid #c5c5c5;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.text-green {
+  color: rgb(13, 206, 58);
+}
+
+.text-red {
+  color: rgb(181, 6, 6);
+}
+
+footer {
+  text-align: center;
+  background: #150d0d;
+  padding: 10px 0px;
+  margin-top: 50px;
+}
+
+
+.plat{
+  color: rgb(134, 90, 9);
+}
+.mobile{
+  color: rgb(106, 60, 2);
+}
+.s20{
+  background-color: #ffffff;
+
+
+
