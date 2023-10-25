@@ -1,82 +1,84 @@
 @font-face {
-    font-family: comic;
-    src: url(./font/comic.ttf);
-}
-:root{
-    --c1: #292929;
-    --c2: #606569;
-    --c3: #eec201;
-    --c4: #fae12c;
-    --c5: #969a9d;
+    font-family: forte;
+    src: url(./font/FORTE.TTF);
 }
 *{
-    font-family: comic;
     margin: 0;
     padding: 0;
 }
-.body{
-    margin: auto;
-    width: 90%;
-    padding: 10px;
-    background-color: #292929;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23EEC201' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23EEC201'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
-}
-div{
-    background-color: var(--c3);
-    box-shadow: 2px 2px 2px 2px var(--c5) ;
-    padding: 5px;
-    margin: 5px;
-    width: 90%;
-    height: 500px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-img{
-    box-shadow: 1px 1px 1px 1px var(--c2) ;
-    margin-bottom: 5px;
-    border-radius: 30px;
-    width: 150px;
-}
-p{
-    border-radius: 10px;
-    background-color: var(--c4);
-    padding: 5px;
-    width: 70%;
-    box-shadow: 1px 1px 1px 1px var(--c2) ;
-    margin-bottom: 10px;
-}
-h5{
-    padding: 10px;
-    text-align: center;
-    background-color: var(--c4);
-    box-shadow: 1px 1px 1px 1px var(--c2) ;
-    border-radius: 10px;
-    width: 60px;
-}
-.info{
+.container{
+    font-family: forte;
     width: 100%;
-    text-align: center;
-    background-color: var(--c3);
-    box-shadow: 2px 2px 2px 2px var(--c5) ;
+    height: 100vh;
+    background-color: #000814;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23EEC201' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23EEC201'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color: #FFC300;
+    padding: 20px;
     border-radius: 10px;
-    padding: 3px;
-    margin: auto;
-    margin-bottom: 10px;
+    box-shadow: -10px -10px 25px #000814, 10px 10px 25px #000814
+}
+.calculator form input{
+    font-family: forte;
+    font-size: larger;
+    border: 0;
+    outline: 0;
+    width: 60px;
     height: 60px;
-}
-.name{
-    margin: auto;
-    margin-bottom: 6px;
-    width: 50%;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px var(--c5) ;
-    background-color: var(--c4);
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1) , 5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: #fff;
+    cursor: pointer;
+    margin: 10px ;
 }
-.games{
-    margin: auto;
-    width: 50%;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px var(--c5) ;
-    background-color: var(--c4);
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
 }
-/*color use to web -#292929-#2E3047-##eec201-#fae12c-#969a9d
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+.m{
+    width: 145px;
+}
+from input .operator{
+    color: #33ffd8;
+}
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    transition: opacity 0.75s , visibility 0.75s;
+}
+.loader--hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+.loader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #000814;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+    form{ transform: rotate(0turn);}
+    to{ transform: rotate(1turn);}
+}

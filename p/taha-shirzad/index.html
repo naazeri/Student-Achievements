@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>طاها شیرزاد</title>
-  <link rel="stylesheet" href="../../lib/simplecss/simple.min.css" />
-  <style>
-    body {
-      font-family: tahoma;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./styles/images/My Logo.jpg">
+    <title>Web Page</title>
 
-    header {
-      background: #000 !important;
-      color: #fafafa !important;
-    }
-
-    article {
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 33px;
-    }
-
-    a {
-      text-decoration: none;
-    }
-  </style>
 </head>
+<script>
+    window.addEventListener("load" , () => {
+        const loader = document.querySelector(".loader");
 
+        loader.classList.add("loader--hidden")
+
+        loader(".loader").addEventListener("transitionend" , () =>{
+            document.body.removeChild(loader(".loader"))
+        });
+    });
+</script>
 <body>
-  <header>
-    <h1>طاها شیرزاد</h1>
-  </header>
-  <p></p>
-  <article>
-    <a href="./2/"><kbd class="card-title">Personal Website</kbd></a>
-    <br />
-    <br />
-    <a href="./1/"><kbd class="card-title">Top 10 Games</kbd></a>
-  </article>
+    <div class="loader"></div>
+<div class="container">
+    <div class="img">
+        <img src="./styles/images/My Logo.jpg" alt="logo" class="logo">
+    </div>
+    <div class="name">
+        <h1>Taha Shirzad</h1>
+    </div>
+    <div class="iconlink">
+        <a href="https://www.instagram.com/mr_tayro_rm/"><img src="./styles/images/Icon/instagram.png" alt=""></a>
+        <a href="https://www.youtube.com/@tayro2761/featured"><img src="./styles/images/Icon/youtube.png" alt=""></a>
+        <a href="https://discord.gg/ztTvCQx2EB"><img src="./styles/images/Icon/discord.png" alt=""></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./styles/images/Icon/gmail.png" alt=""></a>
+    </div>
+    <div class="iconlink">
+        <a href="https://www.reddit.com/user/mr_tayro_rm/"><img src="./styles/images/Icon/reddit.png" alt=""></a>
+        <a href="https://twitter.com/MrTayro"><img src="./styles/images/Icon/twitter.png" alt=""></a>
+        <a href="https://web.telegram.org/k/#@mr_tayro_rm"><img src="./styles/images/Icon/telegram.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/ta-yro-4b1442298/"><img src="./styles/images/Icon/linkedin.png" alt=""></a>
+    </div>
+    <div class="porj">
+        <a href="./Page/calculator/index.html"><img src="./styles/images/Icon/calculator.png" alt=""></a>
+        <a href="./Page/My top ten games/index.html"><img src="./styles/images/Icon/game-controller.png" alt=""></a>
+    </div>
+</div>
 </body>
-
 </html>
