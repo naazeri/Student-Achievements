@@ -63,8 +63,10 @@ header {
 /* FOOTER CONFIG */
 footer {
     text-align: center;
-    background-color: rgb(66, 64, 64);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #fabb05;
     padding: 17px 0px;
     margin-top: 1px;
-    color: red;
+    color: black;
 }

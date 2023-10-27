@@ -1,0 +1,68 @@
+body{
+    background-color: #EDD83D;
+}
+/* header config */
+.title{
+    background-color: #A67DB8;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F1DB4B;
+    font-size: 33px;
+    border: #2C365E solid;
+    border-radius: 8px;
+    padding-top: 22px;
+    padding-bottom: 30px;
+    padding-left: 22px;
+    
+}
+/* calculator base config */
+.calc-card{
+    text-align: center;
+    margin-top: 66px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border: #2C365E dotted;
+    border-radius: 8px;
+}
+.calc-img{
+    width: 278px;
+    margin-left: 11px;
+    margin-bottom: 13px;
+}
+.calc-btn{
+    width: 65px;
+    color: black;
+    margin-top: 22px;
+    margin-left: 1210px;
+    cursor: pointer;
+}
+/* soundtracks project config */
+.title2{
+    text-align: center;
+    margin-top: 66px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+.game-card{
+    margin-top: 55px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border: #2C365E dotted;
+    border-radius: 8px;
+}
+.music-img{
+    width: 222px;
+    margin-left: 1130px;
+}
+.music-btn{
+    width: 65px;
+    color: green;
+    margin-top: 22px;
+    margin-left: 605px;
+    cursor: pointer;
+}
