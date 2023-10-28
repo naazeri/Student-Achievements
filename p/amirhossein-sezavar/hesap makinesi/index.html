@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hesap makinesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+     <img class="name" src="Screenshot 2023-10-28 005124.png" alt="">
+      <h1 class="name"></h1>
+
+    </div>
+
+    <form name="calform" class="calform" action="index.html" method="post">
+        <input type="text" name="answer" id="answer-display" />
+        <br />
+        <input type="button" class="num-btn" value="C" onclick="calform.answer .value=''" />
+        <input type="button" class="num-btn" value=">"
+            onclick="calform.answer .value=calform.answer .value.substring(0,calform.answer .value.length*1-1)" />
+        <input type="button" class="num-btn" value="00" onclick="calform.answer .value+='00'" />
+        <input type="button" class="oprator" value="/" onclick="calform.answer .value+='/'" />
+        <br />
+        <input type="button" class="num-btn" value="7" onclick="calform.answer .value+='7'" />
+        <input type="button" class="num-btn" value="8" onclick="calform.answer .value+='8'" />
+        <input type="button" class="num-btn" value="9" onclick="calform.answer .value+='9'" />
+        <input type="button" class="oprator" value="*" onclick="calform.answer .value+='*'" />
+        <br />
+        <input type="button" class="num-btn" value="4" onclick="calform.answer .value+='4'" />
+        <input type="button" class="num-btn" value="5" onclick="calform.answer .value+='5'" />
+        <input type="button" class="num-btn" value="6" onclick="calform.answer .value+='6'" />
+        <input type="button" class="oprator" value="-" onclick="calform.answer .value+='-'" />
+        <br />
+        <input type="button" class="num-btn" value="1" onclick="calform.answer .value+='1'" />
+        <input type="button" class="num-btn" value="2" onclick="calform.answer .value+='2'" />
+        <input type="button" class="num-btn" value="3" onclick="calform.answer .value+='3'" />
+        <input type="button" class="oprator" value="+" onclick="calform.answer .value+='+'" />
+        <br />
+        <input type="button" id="zero" value="0" onclick="calform.answer .value+='0'" />
+        <input type="button" class="num-btn" value="." onclick="calform.answer .value+='.'" />
+        <input type="button" class="oprator" value="=" onclick="calform.answer .value=eval(calform.answer.value)" />
+    </form>
+    
+</body>
+</html>
