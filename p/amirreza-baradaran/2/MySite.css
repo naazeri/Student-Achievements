@@ -1,0 +1,114 @@
+.Titr {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: url('Background.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.Img1 {
+    width: 300px;
+    height: 300px;
+    /* margin-top: -30px; */
+    /* margin-left: 620px; */
+    margin: auto;
+    border-radius: 50%;
+    border: solid 9px;
+    border-color: rgb(94, 94, 94);
+    background: url(MyProf.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.ButtTeach {
+    /* margin-left: 1330px; */
+    /* margin-top: -600px; */
+    padding: 20px;
+    width: 230px;
+    height: 50px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding-bottom: 45px;
+}
+
+.All {
+    text-align: center;
+}
+
+.Buttons {
+    margin-top: 40px;
+}
+
+.Img1:hover {
+    background: url(MyProfS2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.Butt {
+    display: inline-block;
+    margin: auto;
+ }
+
+ .tleg {
+    display: inline-block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: black;
+    background:  url(TelgramIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+ }
+
+ .Yt {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 130px;
+    height: 90px;
+    background:  url(YtIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+ }
+
+ .Dis {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    background:  url(DiscordIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+ }
+
+ 
+.tleg:hover {
+    padding: 10px;
+}
+
+.Yt:hover {
+    padding: 10px;
+}
+
+.Dis:hover {
+    padding: 10px;
+}
+
