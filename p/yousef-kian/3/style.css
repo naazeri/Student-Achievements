@@ -1,0 +1,144 @@
+@font-face {
+    font-family: trana;
+    src: url(TRANA___.TTF);
+}
+#calcdeep {
+    margin: auto;
+    width: 79vw;
+    height: 95vh;
+    background-color: rgb(30, 30, 30);
+    border-radius: 40px;
+}
+#calcbody {
+    width: 77vw;
+    height: 90vh;
+    background-color: rgb(50, 50, 50);
+    border-radius: 40px;
+    position: relative;
+}
+#calchead {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh;
+    position: absolute;
+}
+#calcsolar {
+    width: 15vw;
+    height: 7vh;
+    background-color: rgb(30, 30, 30);
+    border-bottom: 3px solid rgb(100, 100, 100);
+    border-right: 3px solid rgb(100, 100, 100);
+    border-top: 3px solid rgb(10, 10, 10);
+    border-left: 3px solid rgb(10, 10, 10);
+    border-top-left-radius: 40px;
+}
+#calcname {
+    color: rgb(200, 200, 200);
+    font-size: 30px;
+    font-family: arial black;
+}
+#calcfeature {
+    display: flex;
+    color: rgb(200, 200, 200);
+    font-family: arial;
+    font-size: 10px;
+}
+img {
+    height: 7vh;
+}
+#calcdisplay {
+    position: absolute;
+    width: 95%;
+    height: 13%;
+    background-color: rgb(30, 30, 30);
+    border-bottom: solid 5px rgb(100, 100, 100);
+    border-right: solid 5px rgb(100, 100, 100);
+    border-top: 5px solid rgb(10, 10, 10);
+    border-left: 5px solid rgb(10, 10, 10);
+    margin-top: 11vh;
+    margin-left: 2vw;
+    color: rgb(230, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: trana;
+}
+.calcbtn {
+    color: white;
+    padding: 2vw;
+    border-radius: 10px;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    font-family: arial;
+    font-size: 25px;
+}
+#br1 {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 26vh;
+}
+#br2 {
+    position: absolute;
+    margin-top: 43vh;
+    background-color: rgb(40, 40, 40);
+    margin-left: 2vw;
+    border-radius: 20px;
+}
+.calcop {
+    padding: 1vh 2vh;
+}
+#br3 {
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 36vw;
+}
+#n00 {
+    text-align: center;
+    padding: 1vw;
+    font-size: 20px;
+}
+#n0 {
+    text-align: center;
+    padding: 1vw;
+    font-size: 20px;
+}
+#ndot {
+    text-align: center;
+    padding: 1vw;
+    font-size: 20px;
+}
+#n000 {
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    border-color: rgb(10, 10, 10);
+    margin-top: 81vh;
+    margin-left: 31vw;
+    text-align: center;
+    font-size: 20px;
+    padding: 1vw;
+}
+#br4 {
+    position: absolute;
+    margin-top: 42vh;
+    margin-left: 55vw;
+}
+#calcequ {
+    position: absolute;
+    margin-top: 78vh;
+    margin-left: 55vw;
+    background-color: rgb(0, 70, 210);
+    padding: 3vh 6.8vw;
+    border-color: rgb(0, 20, 100);
+}
+#calcmade {
+    position: absolute;
+    font-family: Arial;
+    color: rgb(200, 200, 200);
+    margin-top: 42vh;
+    margin-left: 70.5vw;
+}
+#endsplash {
+    margin: 0;
+}
