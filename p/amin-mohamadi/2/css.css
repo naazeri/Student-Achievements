@@ -1,101 +1,113 @@
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-}
-
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb( 56 , 134 , 149 );
-    font-family: sans-serif;
-}
- .cantenr{
-    max-width: 90%;
- }
-.login_from{
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    border-radius: 20px;
-    overflow: hidden;
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
  }
 
- .login_from_img img{
-    width: 100%;
-    height: 25vh;
-    object-fit: cover;
+ img {
+   max-width: 100%;
+   height: auto;
  }
+
+ body {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(56, 134, 149);
+   font-family: sans-serif;
+ }
+
+ .cantenr {
+   max-width: 90%;
+ }
+
+ .login_from {
+   display: flex;
+   flex-direction: column;
+   background-color: #ffffff;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+
+ .login_from_img img {
+   width: 100%;
+   height: 25vh;
+   object-fit: cover;
+ }
+
  .login_from_right {
-padding: 2rem;
+   padding: 2rem;
  }
- .login_from_right h1{
+
+ .login_from_right h1 {
    margin-bottom: 2rem;
-}
+ }
+
  .login_from_right form input,
- .login_from_right form button{
-    width: 100%;
-    margin-bottom: 1rem;
-    border:2px solid rgb( 56 , 134 , 149 );
-    padding: 0.7rem;
-    border-radius: 5px;
-    outline: none;
-     } 
-     .login_from_right form input:focus{
-      border: 2px solid rgb( 201 , 3 , 76 );
-      box-shadow: 0 0 0px 2px rgba(201, 3, 76, 0.556);
-     }
-     .login_from_right form label{
+ .login_from_right form button {
+   width: 100%;
+   margin-bottom: 1rem;
+   border: 2px solid rgb(56, 134, 149);
+   padding: 0.7rem;
+   border-radius: 5px;
+   outline: none;
+ }
+
+ .login_from_right form input:focus {
+   border: 2px solid rgb(201, 3, 76);
+   box-shadow: 0 0 0px 2px rgba(201, 3, 76, 0.556);
+ }
+
+ .login_from_right form label {
    color: #413e3e;
    font-size: 0.8rem;
  }
-     .login_from_right form button{
-       background-color: rgb( 201 , 3 , 76 );
-       border: none;
-       color: #ffffff;
-        margin-top: 1rem;
-        padding: 0.7rem;
-        cursor: pointer;
-        
-        
-         } 
-         .login_from_right form button :hover{
-          background-color: rgb(120, 11, 51);
-          
-           
-            } 
+
+ .login_from_right form button {
+   background-color: rgb(201, 3, 76);
+   border: none;
+   color: #ffffff;
+   margin-top: 1rem;
+   padding: 0.7rem;
+   cursor: pointer;
 
 
-@media screen and (min-width: 768px) {
-  .login_from{
-    display: flex;
-    flex-direction: row;
-    background-color: #ffffff;
-    border-radius: 20px;
-    overflow: hidden;
  }
- .login_from_right {
-  padding: 5rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-self: center;
-  justify-content: center;
-}
-.login_from_img {
-  flex: 1;
-  
-}
-.login_from_img img {
-  height: 100%;
-  width: 400px;
-}
-}
+
+ .login_from_right form button :hover {
+   background-color: rgb(120, 11, 51);
+
+
+ }
+
+
+ @media screen and (min-width: 768px) {
+   .login_from {
+     display: flex;
+     flex-direction: row;
+     background-color: #ffffff;
+     border-radius: 20px;
+     overflow: hidden;
+   }
+
+   .login_from_right {
+     padding: 5rem;
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-self: center;
+     justify-content: center;
+   }
+
+   .login_from_img {
+     flex: 1;
+
+   }
+
+   .login_from_img img {
+     height: 100%;
+     width: 400px;
+   }
+ }
