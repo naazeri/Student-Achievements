@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> 🔢Mashin hesab 🔢website</title>
+    <button class="equal">=</button>
+
+<body>
+    <header>
+        <h1 class="title1">🔢💛🌟yones <span class="title2">Ebrahimabadi🌟💛🔢</span></h1>
+    </header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            outline: none;
+        }
+
+        body,
+        html {
+            height: 100%;
+            background-image: url(img/Screenshot\ 2023-10-21\ 131057.png);
+        }
+
+        form {
+            background: #9405fa;
+            width: 250px;
+            border-radius: 12px;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        input[name="display"] {
+            background: #d0ff00;
+            height: 40px;
+            text-align: right;
+            border-radius: 8px;
+            margin: 5px;
+            width: calc(100% - 30px);
+            border: none;
+            padding: 0 10px;
+        }
+
+        input[type="button"] {
+            float: left;
+            width: calc(100% / 4 - 7px);
+            background: #ffffff;
+            border-radius: 8px;
+            height: 40px;
+            text-align: center;
+            margin: 0 0 5px 5px;
+        }
+
+        input[type="button"]:nth-last-of-type(1) {
+            background: #ffffff;
+            border-color: #000000;
+            width: calc(50% - 7px);
+        }
+
+        input[class="del"] {
+            background: #ff0000;
+            border-color: #000000;
+        }
+
+        input[class="AC"] {
+            background-color: #96e072;
+            border-color: #000000;
+        }
+
+        input[class="percent"] {
+            background-color: #61c707;
+            border-color: #000000;
+        }
+
+        input[class="negative"] {
+            background-color: #61c707;
+            border-color: #000000;
+        }
+
+        input[class="num9"] {
+            background-color: #1EFFBC;
+            border-color: #ffff00;
+        }
+
+        input[class="num8"] {
+            background-color: #1EFFBC;
+            border-color: #ffff00;
+        }
+
+        input[class="num7"] {
+            background-color: #1EFFBC;
+            border-color: #ffff00;
+        }
+
+        input[class="multiplied-by"] {
+            background-color: #61c707;
+            border-color: #ffff00;
+        }
+
+        input[class="num6"] {
+            background-color: #1EFFBC;
+            border-color: #ffff00;
+        }
+
+        input[class="num5"] {
+            background-color: #1EFFBC;
+            border-color: #ffff00;
+        }
+
+        input[class="num4"] {
+            background-color: #1EFFBC;
+            border-color: #ffff00;
+        }
+
+        input[class="devide"] {
+            background-color: #61c707;
+            border-color: #61c707;
+        }
+
+        input[class="num3"] {
+            background-color: #1EFFBC;
+            border-color: #1EFFBC;
+        }
+
+        input[class="num2"] {
+            background-color: #1EFFBC;
+            border-color: #1EFFBC;
+        }
+
+        input[class="num1"] {
+            background-color: #1EFFBC;
+            border-color: #1EFFBC;
+        }
+
+        input[class="plus"] {
+            background-color: #61c707;
+            border-color: #61c707;
+        }
+
+        input[class="num0"] {
+            background-color: #1EFFBC;
+            border-color: #1EFFBC;
+        }
+
+        input[class="dott"] {
+            background-color: #1EFFBC;
+            border-color: #000000;
+        }
+
+        footer {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: large;
+            margin-top: 610px;
+            background-color: #ffffff;
+            padding-top: 22px;
+            padding-bottom: 33px;
+
+        }
+    </style>
+    <script>
+        function data(val) {
+            calc.display.value += val;
+        }
+        function AC() {
+            calc.display.value = "";
+        }
+        function del() {
+            calc.display.value = calc.display.value.slice(0, -1);
+        }
+        function equal() {
+            calc.display.value = eval(calc.display.value);
+        }
+    </script>
+    </head>
+
+    <body>
+        <form name="calc">
+            <input type="text" value="" name="display">
+            <input type="button" value="AC" onclick="AC()" class="AC">
+            <input type="button" value="DEL" onclick="del()" class="del">
+            <input type="button" value="%" onclick="data(this.value)" class="percent">
+            <input type="button" value="-" onclick="data(this.value)" class="negative">
+            <input type="button" value="9" onclick="data(this.value)" class="num9">
+            <input type="button" value="8" onclick="data(this.value)" class="num8">
+            <input type="button" value="7" onclick="data(this.value)" class="num7">
+            <input type="button" value="*" onclick="data(this.value)" class="multiplied-by">
+            <input type="button" value="6" onclick="data(this.value)" class="num6">
+            <input type="button" value="5" onclick="data(this.value)" class="num5">
+            <input type="button" value="4" onclick="data(this.value)" class="num4">
+            <input type="button" value="/" onclick="data(this.value)" class="devide">
+            <input type="button" value="3" onclick="data(this.value)" class="num3">
+            <input type="button" value="2" onclick="data(this.value)" class="num2">
+            <input type="button" value="1" onclick="data(this.value)" class="num1">
+            <input type="button" value="+" onclick="data(this.value)" class="plus">
+            <input type="button" value="0" onclick="data(this.value)" class="num0">
+            <input type="button" value="." onclick="data(this.value)" class="dott">
+            <input type="button" value="=" onclick="equal()" class="equal">
+            <div style="clear: both;">
+            </div>
+        </form>
+        <footer>
+        </footer>
+    </body>
+
+</html>
