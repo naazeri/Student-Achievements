@@ -1,0 +1,28 @@
+.cal{
+
+}
+button{
+    border-radius: 3px;
+    color: rgb(122, 42, 126);
+    background-color: rgb(116, 114, 114);
+    text-align: center;
+    margin:5px; ;
+    padding:10px;
+    padding-bottom:10px;
+    width:50px;
+    height:50px;
+}
+.cal :hover{
+box-shadow:10cm rgb(0, 255, 217);
+}
+div{
+    text-align: center;
+}
+input{
+    height:30px;
+    width: 170px;
+}
+body{
+    background-image: url(cal.jpg) ;
+background-size: cover;
+}
