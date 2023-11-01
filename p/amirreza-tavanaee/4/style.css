@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'mamali';
+    src: url(./BRADHITC.TTF);
+}
+
+.header {
+    font-family: 'mamali';
+    font-weight: bold;
+    text-align: center;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    display: inline;
+    background-color: rgba(43, 170, 58, 0.855);
+    padding: 3px 3px;
+}
+
+body {
+    background-image: url(./join\ ❤️\ @lwall_3Dl\ \(115\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    filter: blur(20%);
+    object-fit:fill;
+    font-family: 'mamali';
+    font-weight: bold;
+    height: 100vh;
+}
+
+.Email {
+    background-color: rgb(255, 82, 7);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 17px;
+}
+
+.input1 {
+    border-radius: 5px;
+    border: 2px;
+    height: 20px;
+    padding: 3px 3px;
+}
+
+.UN {
+    background-color: rgb(255, 82, 7);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 3px;
+}
+
+.Password {
+    background-color: rgb(255, 82, 7);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 7px;
+}
+
+.C-Password {
+    background-color: rgb(255, 82, 7);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 2px;
+}
+
+.input {
+    border-radius: 5px;
+}
+
+input:active {
+    color: red;
+    background-color: rgb(8, 49, 199);
+}
+
+.login {
+    background-color: rgb(17, 225, 86);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 2px;
+    text-align: center;
+}
+
+.Gendre {
+    background-color: rgb(17, 164, 217);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 2px;
+}
+
+.color {
+    background-color: rgb(17, 164, 217);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 15px;
+}
+
+.legend {
+    background-color: rgb(14, 230, 35);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 2px;
+    margin: 10px 290px;
+    text-align: center;
+    margin:auto;
+}
+
+.Country {
+    background-color: rgb(217, 17, 214);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 3px 15px;
+}
+fieldset {
+    width: 200px;
+    margin: auto;
+}
+
+.login1 {
+    background-color: rgb(17, 225, 86);
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    display: inline;
+    padding: 5px 5px;
+    text-align: center;
+}
