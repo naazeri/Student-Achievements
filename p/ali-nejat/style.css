@@ -42,10 +42,18 @@ height: 100vh;
 
 }
 .img{
-    background-color: rgb(181, 237, 245);
-    border-radius: 10px;
+    background-color: rgb(245, 181, 181);
+    border-radius: 11px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 80px;
+    max-width: 60px;
+
+}
+.img2{
+    background-color: rgb(245, 181, 181);
+    border-radius: 11px;
+    margin: auto;
+    margin-top: 10px;;
     max-width: 60px;
 
 }

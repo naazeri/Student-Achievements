@@ -1,15 +1,15 @@
 body{   font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(150, 194, 230);
+    background-color: #db9292;
 }
 .name{
      border-color: rgb(7, 58, 24);
-    color: rgb(26, 4, 105);
+    color: #db9292;
     border-style:solid;
     text-align: center;
     width: 60%;
     margin: auto;
     border-radius: 10px;
-    background-color: rgb(63, 187, 218);
+    background-color: rgb(105, 9, 9);
 
 }
 h1{
