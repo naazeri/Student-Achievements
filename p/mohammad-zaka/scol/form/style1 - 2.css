@@ -1,0 +1,62 @@
+body {
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.form {
+    border: 1px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-left: 35%;
+    background-color: rgba(255, 255, 255, 0.545);
+}
+
+.buuten {
+    width: 300px;
+    height: 40px;
+    border-radius: 200px;
+    margin-top: 20PX;
+    background: linear-gradient(rgb(72, 225, 255), rgb(255, 255, 255) 50%, rgb(0, 255, 251));
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.buuten:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+legend {
+    font-size: 50px;
+}
+
+.cadr {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgba(166, 255, 237, 0.599);
+
+}
+
+input {
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 50px;
+    color: rgb(55, 72, 73);
+    margin-left: 30px;
+
+
+}

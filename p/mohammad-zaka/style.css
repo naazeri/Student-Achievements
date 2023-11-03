@@ -27,7 +27,7 @@
   }
   
   .container {
-    background-color:#1202ffdf;
+    background: radial-gradient(circle,rgba(0, 0, 255, 0.955)40%,rgba(255, 255, 255, 0.941)100%);
     width: 100vw;
     height: 100vh;
   }
@@ -35,8 +35,9 @@
     text-align: center;
      padding: px 100px 200px 100px;
      font-size: 30px;
-     color: white;
+     color: rgb(255, 255, 255);
      font-family:"a1";
+     text-shadow: 19px 15px 10px rgb(0, 0, 0);
     
 
   }
@@ -44,10 +45,11 @@
     text-align: center;
     margin: 20px;
     width: 250px;
-    border: 3px solid rgb(255, 238, 238);
+    border: 1px solid rgb(255, 145, 0);
     height: 250px;
     border-radius: 100%;
     margin-top: 100px;
+    box-shadow: 10px 10px 27px rgb(255, 170, 0);
     
   }
   .icon{
@@ -55,6 +57,7 @@
     color: white;
     padding: 8px;
     text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
     
   }
   .icon1{
@@ -62,6 +65,7 @@
     color: white;
     padding: 10px;
     text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
    
   }
   .icon2{
@@ -69,6 +73,7 @@
     color: white;
     padding: 12px;
     text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
     
   }
   .icon3{
@@ -76,6 +81,7 @@
     color: white;
     padding: 15px;
     text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
     
   }
   .icon4{
@@ -83,6 +89,7 @@
     color: white;
     padding: 18px;
     text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
     
   }
   .icon1:hover{
@@ -103,6 +110,7 @@
   .prof:hover{
     opacity: 0.4;
     border-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px rgb(255, 149, 0);
     
   }
   
