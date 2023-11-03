@@ -17,6 +17,25 @@ body{
     background-color: #000814ad;
     background-blend-mode: multiply;
 }
+.div-login{
+    display: flex;
+    justify-content: flex-end;
+}
+.bu-login{
+    font-size: 15px;
+    font-family: martina;
+    background-color: #001D3D;
+    box-shadow: 8px 8px 15px #001D3D , -8px -8px 15px #001D3D;
+    margin: 10px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.bu-login a{
+    color: white;
+    text-decoration: none;
+}
 .img{
     display: flex;
     justify-content: center;
@@ -49,7 +68,6 @@ body{
 }
 .iconlink a img{
     width: 100px;
-    box-shadow: 8px 8px 15px #001D3D , -8px -8px 15px #001D3D;
 }
 .porj{
     display: flex;

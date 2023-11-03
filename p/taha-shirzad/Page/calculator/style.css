@@ -36,10 +36,16 @@
     cursor: pointer;
     margin: 10px ;
 }
+.calculator input:hover{
+    background-color: #d6a400;
+}
 form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+}
+.display input:hover{
+    background-color: #FFC300;
 }
 form .display input{
     text-align: right;
