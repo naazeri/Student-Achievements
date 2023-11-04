@@ -1,10 +1,4 @@
-
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
-@font-face{
-  font-family: 'FontMan';
-  src: url('../font/KaushanScript-Regular.otf') format('otf'),
- 
- }
 html {
   box-sizing: border-box;
 }
@@ -1175,7 +1169,6 @@ a {
   padding: 12px 24px !important;
 }
 .w3-padding-16 {
-  font-family: FontMan;
   padding-top: 16px !important;
   padding-bottom: 16px !important;
 }
@@ -1334,7 +1327,6 @@ a {
 }
 .w3-white,
 .w3-hover-white:hover {
-  font-family: FontMan;
   color: #000 !important;
   background-color: #fff !important;
 }

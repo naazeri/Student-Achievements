@@ -32,6 +32,7 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     text-decoration: none;
     border-radius: 50px;
     box-shadow: 0px 8px 0px #cc4c02e5,0px 8px 15px #e6810fda ;
+    transition: all 0.2 ease;
 }
 
 .button:active {
@@ -49,6 +50,7 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     text-decoration: none;
     border-radius: 50px;
     box-shadow: 0px 8px 0px #6d6968ea,0px 10px 17px #5a554dea ;
+    transition: all 0.2 ease;
 }
 
 .buttonx:active {
