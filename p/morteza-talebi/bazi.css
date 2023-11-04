@@ -1,0 +1,17 @@
+img{
+    height: 200px;
+}
+body {
+    background: url(IMG_۲۰۲۳۱۱۰۴_۱۴۵۳۴۲.jpg);
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    
+    background-repeat: round;
+    background-repeat: round repeat;
+}
+h1{
+    background-color: rgba(93, 177, 255, 0.589);
+    margin: 0;
+
+}
