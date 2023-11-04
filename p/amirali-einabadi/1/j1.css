@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(111, 35, 109);
+    
+background-image:url(desktop-wallpaper-ideapad-gaming-3-futuristic-car-needed-english-community-3840x1928-for-your-mobile-tablet-lenovo-car.jpg) ;
+background-size: contain;
+}
+p {
+color: rgb(56, 183, 24);
+}
+
+.game1 {
+    color: aquamarine;
+}
+.game image{
+    width: 200px;
+}
+.game2{
+    color: brown;
+}
+.game3{
+    color: blue;
+}
+.game4{
+    color: burlywood;
+}
+.game5{
+    color: chocolate;
+}
+.game6{
+    color: aliceblue;
+}
+.game7{
+    color: aqua;
+}
+.game8{
+    color: blueviolet;
+}
+.game9{
+    color: aliceblue;
+}
+.game10{
+    color: cornflowerblue;
+}
+hr{
+    height: 3px;
+    background-color: brown;
+}
+h1{
+    color: #1ae142;
+}
