@@ -1,0 +1,32 @@
+body {
+    background-color: brown;
+    }
+    
+    .SearchBox {
+        width: 500px;
+        height: 100px;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+    
+    .Email {
+        font-size: 55px;
+    }
+    
+    .Pass {
+        font-size: 34px;
+    }
+    
+    .LogButt {
+        width: 160px;
+        height: 120px;
+        font-size: 60px;
+        border-radius: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .Butt {
+        text-align: right;
+        position: absolute;
+        right: 10px;
+    }

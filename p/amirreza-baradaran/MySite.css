@@ -1,7 +1,8 @@
 .Titr {
-    padding-top: 50px;
     text-align: center;
     font-size: 50px;
+    margin-bottom: 30px;
+    margin-left: 320px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(255, 255, 255);
 }
@@ -15,9 +16,9 @@ body {
 .Img1 {
     width: 300px;
     height: 300px;
-    /* margin-top: -30px; */
-    /* margin-left: 620px; */
     margin: auto;
+    margin-bottom: 60px;
+    margin-top: 70px;
     border-radius: 50%;
     border: solid 9px;
     border-color: rgb(94, 94, 94);
@@ -27,18 +28,41 @@ body {
     background-size: cover;
 }
 
+.cal {
+    margin-right: -298px;
+    float: right;
+    color: aliceblue;
+    width: 70px;
+    height: 70px;
+}
 
-.ButtTeach {
-    /* margin-left: 1330px; */
-    /* margin-top: -600px; */
-    padding: 20px;
-    width: 230px;
-    height: 50px;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(19, 19, 19);
-    color: white;
-    padding-bottom: 45px;
+.cont {
+    margin-right: -196px;
+    float: right;
+    color: aliceblue;
+    width: 70px;
+    height: 70px;
+}
+
+.CurserText {
+    margin-top: -11px;
+    margin-right: -90px;
+    float: right;
+    color: aliceblue;
+    width: 90px;
+    height: 90px;
+}
+
+.MyProjects {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 40px;
+    float: right;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: aliceblue;
+    border-radius: 5%;
+    width: 290px;
 }
 
 .All {
@@ -112,3 +136,6 @@ body {
     padding: 10px;
 }
 
+.Others {
+    
+}

@@ -1,0 +1,76 @@
+.uy p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgb(207, 198, 198);
+}
+
+.uim {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+
+.Deafult {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: rgb(255, 196, 0);
+    text-align: center;
+}
+
+#Size {
+    width: 300px;
+    height: 200px;
+}
+
+.GameDes {
+    
+    direction: rtl;
+    border: 1px yellow solid;
+}
+
+
+h1{
+    color: aqua;
+}
+
+.But1 {
+    background-color: yellow;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Test1 {
+    background-color: #04AA6D;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+
+header {
+    text-align: center;
+    background: black;
+    padding: 5px 100px;
+    margin-bottom: 
+}
+
+body {
+    background: url('/asphalt_Tex.png');
+    background-color: black;
+}
+
+footer {
+    background: white;
+    padding: 40px;
+    margin-top: 100px;
+}
