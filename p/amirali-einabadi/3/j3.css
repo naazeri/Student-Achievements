@@ -1,0 +1,21 @@
+button{
+    border-radius: 5px;
+    border: 1.px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 2px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+    width: 40px;
+    height: 40  px;
+}
+.calculator{
+    box-shadow: 1000px;
+}
+div{
+    text-align: center;
+}
+body{
+    background: url(download\ \(8\).jpg);
+    background-size: 100%;
+}
