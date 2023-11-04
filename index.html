@@ -31,8 +31,12 @@
                 alt='user image'
               />
               <div class='card-body'>
-                <h5 class='card-title'>{{firstName}} {{lastName}}</h5>
-                <!-- <p class='card-text'></p> -->
+                <h5 class='card-title text-light'>{{firstName}} {{lastName}}</h5>
+                {{#if website }}
+                <a href="https://{{website}}" target="_blank">
+                  <p class='card-text'>{{website}}</p>
+                </a>
+                {{/if }}
               </div>
             </div>
           </a>
@@ -58,7 +62,7 @@
           { firstName: 'حسام الدین', lastName: 'سید', slug: 'hesam-seyed', image: true },
           { firstName: 'امیرعلی', lastName: 'یاراحمدی', slug: 'amirali-yarahmadi', image: true },
           { firstName: 'علی', lastName: 'نجات', slug: 'ali-nejat', image: true },
-          { firstName: 'سبحان', lastName: 'صفار', slug: 'sobhan-saffar', image: true },
+          { firstName: 'سبحان', lastName: 'صفار', slug: 'sobhan-saffar', image: true, website: 'saffaar.ir' },
           { firstName: 'امیررضا', lastName: 'توانایی', slug: 'amirreza-tavanaee', image: true },
           { firstName: 'مهرشاد', lastName: 'پهلوان', slug: 'mehrshad-pahlevan', image: true },
           { firstName: 'طاها', lastName: 'شیرزاد', slug: 'taha-shirzad', image: true },
