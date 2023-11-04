@@ -1,10 +1,11 @@
 body{
  background: url(wwe.jpg);
  background-size: cover;
+ background-position:center ;
 }
 .Aj{
 width: 400px;
-margin-top: 280px;
+margin-top: 270px;
 border: rgb(43, 1, 150) 200px;
 margin-left:50px ;
 } 
@@ -19,19 +20,24 @@ h1{
 }
 .all{
     display: flex;
+    text-decoration: none;
 }
 .logo{
     color: rgb(0, 243, 231);
-    margin-left:120px; 
+    margin-left:25px; 
+    margin-right: 25px;
     margin-top: 340px;
-    width:40%;
-    height: 40%;
+    /* font-size: 40px; */
+    width:40px;
+    height: 40px;
 }
 .Background{
-    width: 235px;
+    width: 270px;
     height: 50px;
     margin-left:-240px;
-    margin-top: 340px;
-    color: rgb(0, 243, 231);   
+    margin-top: 240px;
+    border-color: rgb(6, 111, 106);
+    border-width: 10px;
+    background: rgb(0, 243, 231);
+    color: rgb(0, 0, 0);
 }
-
