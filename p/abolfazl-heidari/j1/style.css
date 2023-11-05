@@ -1,0 +1,22 @@
+body{
+background-color: rgb(160, 5, 147); 
+}
+h2
+{color: #ffffff;}
+.game1 {
+    color: #ff0000;
+}
+.game2{
+
+color: #0000ff;
+}
+h1.game2{
+color: rgb(69, 46, 0);
+}
+.talebi{
+     width: 300px ;
+}
+hr{
+    height: 3px;
+    background-color: #ffffff;
+}
