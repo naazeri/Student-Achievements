@@ -120,3 +120,17 @@ span {
 .audio-title {
     /* color: red; */
 }
+/* ------------------------------------------------------------------------------------- */
+.login-btn{
+    width:  75px;
+    height: 55px;
+    margin-top: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(67, 6, 67);
+    transition: background 2s;
+}
