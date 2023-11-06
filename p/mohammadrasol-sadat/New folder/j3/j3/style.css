@@ -1,0 +1,21 @@
+
+button{
+    border-radius: 20px;
+    border: 2.px;
+    color: rgba(0, 0, 0, 0.974);
+    text-align: center;
+    padding:10PX;
+    margin:5PX 2.PX;
+    
+    padding-bottom:10PX;
+    background-color:rgb(255, 140, 0);
+    width: 50PX;
+     height:35PX;
+}
+.card{
+    text-align: center;
+}
+body{
+    background-image: url(image/How-to-Become-a-Programmer.jpg) ;
+}
+
