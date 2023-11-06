@@ -1,0 +1,12 @@
+body{
+    background-image: url(MMM.jpg);
+    color: hsl(287, 100%, 50%);
+}
+form{
+    border: 10px rgb(255, 0, 0) solid;
+    background-color: rgb(200, 255, 0);
+    padding: 50px;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
