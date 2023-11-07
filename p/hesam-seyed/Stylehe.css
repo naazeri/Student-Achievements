@@ -62,11 +62,13 @@ cursor: pointer;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  opacity: 100%;
 }
 
 .size{
   margin-top: 100px;
 }
+
 
 
 /*.kj{

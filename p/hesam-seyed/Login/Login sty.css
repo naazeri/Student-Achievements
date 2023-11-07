@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: beige;
+}
+.border{
+    border: solid 3px;
+    border-color: beige;
+    padding: 100px;
+    background-color: rgb(255, 230, 199);
+}
+.color{
+    background-color: beige;
+    padding: 5px;
+}
+#titr{
+    text-align: center;
+    color: black;
+}
+.s{
+    display: block;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 70px;
+    background-color: aqua;
+    color: black;
+}
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.s {
+    padding: 1.25em 2em;
+    border: 2px solid #b18597;
+    border-radius: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: bisque;
+    transform-style: preserve-3d;
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+}
+
+button.s::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: bisque;
+    box-shadow: 0 0 0 2px bisque, 0.625em 0 0 bisque;
+    transform: translate3d(0, .75em, -1em);
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+}
+
+button.s:hover {
+    background: bisque;
+    transform: translate(0, .25em);
+}
+
+button.s:hover::before {
+    box-shadow: 0 0 0 2px bisque, 0 .5em 0 0 bisque;
+    transform: translate3d(0, .5em, -1em);
+}
+
+button.s:active {
+    background: #ffe9e9;
+    transform: translate(0, .75em);
+}
+
+button.s:active::before {
+    box-shadow: 0 0 0 2px bisque, 0 0 bisque;
+    transform: translate3d(0, 0, -1em);
+}
+#size{
+    margin-top: 25px;
+    position: absolute;
+    text-decoration: none;
+}
+.ms{
+    position: absolute;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
