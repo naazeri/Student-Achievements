@@ -9,10 +9,11 @@ body {
 
 /* header */
 header {
-  background-image: url(../../style/image/header-bg.jpg);
+  background-image: url(../../style/image/back-ground.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  margin-bottom: 25px;
 }
 
 .home {
@@ -26,9 +27,10 @@ a {
 }
 
 .all-header {
-  color: white;
+  background-color: rgba(161, 161, 161, 0.7);
+  padding-bottom: 50px;
   text-align: center;
-  background-color: rgba(161, 161, 161, 0.8);
+  margin: 0;
 }
 
 .site-name {
@@ -58,29 +60,28 @@ a {
 }
 
 .photo {
-  width: 800px;
+  width: 50%;
   display: inline;
 }
 
 .logo-cars {
-  width: 400px;
+  width: 50%;
   display: inline-block;
 }
 
 .logo-cars-1 {
-  width: 600px;
+  width: 50%;
   display: inline-block;
 }
-
-.logo-cars-3 {
-  width: 600px;
-  display: inline-block;
-}
-
 .logo-cars2 {
-  width: 45%;
+  width: 50%;
   display: inline-block;
 }
+.logo-cars-3 {
+  width: 50%;
+  display: inline-block;
+}
+
 
 .lorem {
   background-color: #e7e7e7;
@@ -118,7 +119,6 @@ a {
 }
 
 .all {
-  display: inline-block;
   background-image: url(../../style/image/back-ground-body.jpg);
 }
 

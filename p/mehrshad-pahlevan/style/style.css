@@ -33,9 +33,14 @@ body {
   width: 40px;
 }
 .icon-5 {
-  padding: 50px 0;
-  width: 40px;
+  padding: 50px 10px;
+  width: 45px;
 }
+.icon-6 {
+  width: 55px;
+  padding: 40px 10px;
+}
+
 .all-about {
   border: 2px black solid;
   padding: 50px;
@@ -46,4 +51,8 @@ body {
 }
 .lorem {
   padding: 20px;
+}
+nazar sanji .nazar-sanji {
+  border: 2px black solid;
+  margin: 5px;
 }

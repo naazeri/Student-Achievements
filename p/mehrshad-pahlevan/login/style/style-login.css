@@ -1,0 +1,70 @@
+body {
+  background-image: url(photo/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.all {
+  font-size: 25px;
+  text-align: center;
+  width: 33%;
+  padding: 50px;
+  background-color: rgba(58, 58, 58, 0.9);
+  display: block;
+}
+.icon-input {
+  display: inline;
+  width: 8%;
+}
+.user {
+  padding-top: 100px;
+  margin: 15px;
+  color: white;
+}
+.pass {
+  color: white;
+}
+.icon {
+  margin: 10px;
+}
+.image-1 {
+  width: 50px;
+}
+.image-2 {
+  width: 35px;
+  padding: 10px;
+}
+.image-3 {
+  width: 35px;
+  padding: 10px;
+}
+.icon-user {
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(166, 166, 166, 0.9);
+  width: 43%;
+}
+.icon-pass {
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(166, 166, 166, 0.9);
+  width: 41%;
+}
+.sabt {
+  text-decoration: none;
+  border: 2px black solid;
+  background-color: silver;
+  padding: 5px 10px;
+  color: black;
+}
+.sabt :hover {
+  background-color: rgb(156, 156, 156) 156, 156, 156;
+  box-shadow: 2px 3px;
+}
+.sabt-name {
+  text-decoration: none;
+  padding: 20px 0 100px;
+}
+.sabt-1 :hover {
+  box-shadow: 0 0 3px 1px #000;
+  background-color: #5a5a5a;
+}
