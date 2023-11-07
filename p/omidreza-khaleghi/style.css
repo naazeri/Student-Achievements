@@ -21,13 +21,13 @@ h1 {
   }
   
   body {
-    background: url(image/poster_8de2ee9f-b0fb-46d1-b3e1-783a4283a968.jpeg);
+    background: url(image/giphy2-min.gif);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .container {
-    background-color: #00ffe177;
+    background-color: #00ffe176;
     width: 100vw;
     height: 100vh;
   }

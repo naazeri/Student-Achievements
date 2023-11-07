@@ -17,12 +17,13 @@
     }
     
     body {
-      background: url(image/559128.jpg);
+      background: url(image/giphy6.gif);
       background-repeat: no-repeat;
       background-size: cover;
     }
     
     .container {
+      background-color: #00ffe15e;
       width: 100vw;
       height: 100vh;
     }
