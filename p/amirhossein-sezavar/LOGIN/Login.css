@@ -1,0 +1,41 @@
+div{
+   text-align: end;
+    font-size: larger;
+    background-color:rgba(142, 132, 132, 0.211);
+}
+  body {
+    background: url(Screenshot\ 2023-10-28\ 005310.png);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -178px;
+    
+    background-color: #b6d3ff;
+    font-family: sans-serif;
+  }
+.input{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: large;
+ 
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.Login{
+    text-align: center;
+    background-color: rgba(35, 226, 217, 0.693);
+    
+}
+.svg{
+    font-size: larger;
+    color: rgb(255, 0, 0);
+    background-color: black;
+}
+.label{
+    background-color: rgba(255, 255, 255, 0.484);
+    color: black;
+}
