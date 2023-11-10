@@ -1,0 +1,153 @@
+@font-face {
+    font-family:'digital';
+    src: url(digital-7.ttf);
+}
+body{
+    background-image: url(image/new-nokia-3310-1\ .jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: 570px;
+
+}
+.cal{
+    background-color: rgba(0, 255, 255, 0);
+    display: inline;
+    float: left;
+    margin-top: 2px;
+    margin-left: 35px;
+
+}
+.coltn{
+    margin-top: 10%;
+    display: contents;
+    float: right;
+    margin: 0px;
+    display: inline;
+    float: left;
+
+}
+.Cal1{
+    color: rgb(255, 255, 255);
+    width: 175px;
+    background-color: rgb(31, 63, 78);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 20px solid rgb(45, 71, 73);
+    border-bottom: 20px solid rgb(52, 78, 74);
+    border-left: 10px solid rgb(255, 0, 0);
+    border-right: 10px solid rgb(208, 255, 0);
+    display: inline-block;
+}
+.Cal2{
+    color: rgb(255, 255, 255);
+    width: 175px;
+    background-color: rgb(31, 63, 78);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 20px solid rgb(45, 71, 73);
+    border-bottom: 20px solid rgb(52, 78, 74);
+    border-left: 10px solid rgb(208, 255, 0);
+    border-right: 10px solid rgb(255, 0, 0);
+    display: inline-block;
+}
+.Cal1:hover{
+    color: rgb(255, 255, 255);
+    width: 170px;
+    background-color: rgb(53, 105, 129);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 20px solid rgb(45, 71, 73);
+    border-bottom: 20px solid rgb(52, 78, 74);
+    border-left: 10px solid rgb(47, 68, 66);
+    border-right: 10px solid rgb(251, 255, 0);
+}
+.Cal2:hover{
+    color: rgb(255, 255, 255);
+    width: 170px;
+    background-color: rgb(55, 112, 138);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 20px solid rgb(45, 71, 73);
+    border-bottom: 20px solid rgb(52, 78, 74);
+    border-left: 10px solid rgb(255, 238, 0);
+    border-right: 10px solid rgb(45, 61, 63);
+}
+.Cal1:active{
+    color: rgb(255, 255, 255);
+    width: 170px;
+    background-color: rgb(173, 229, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 20px solid rgb(0, 238, 255);
+    border-bottom: 20px solid rgb(0, 255, 213);
+    border-left: 10px solid rgb(0, 255, 234);
+    border-right: 10px solid rgb(255, 0, 0);
+}
+.Cal2:active{
+    color: rgb(255, 255, 255);
+    width: 170px;
+    background-color: rgb(173, 229, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 20px solid rgb(0, 238, 255);
+    border-bottom: 20px solid rgb(0, 255, 213);
+    border-left: 10px solid rgb(255, 0, 0);
+    border-right: 10px solid rgb(0, 255, 255);
+}
+.docme{
+    width: 70px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    background-color: rgba(63, 92, 92, 0.13);
+    color: rgba(0, 255, 255, 0);
+}
+.val{
+    width: 70px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    background-color: rgba(63, 92, 92, 0.13);
+    color: rgba(0, 255, 255, 0);
+}
+.operator{
+    width: 70px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    background-color: rgba(63, 92, 92, 0.13);
+    color: rgba(0, 255, 255, 0);
+}
+.text{
+    margin-left: 5px;
+    margin-top: 95px;
+    margin-bottom: 40px;
+    width: 300px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0);
+    font-size: 100px;
+    font-family: 'digital';
+    color: rgb(0, 0, 0);
+}
+.val:hover{
+    width: 70px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0);
+    color: rgba(0, 255, 255, 0);
+}
+.operator:hover{
+    width: 70px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0);
+    color: rgba(0, 255, 255, 0);
+}
+.docme:hover{
+    width: 70px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0);
+    color: rgba(0, 255, 255, 0);
+}

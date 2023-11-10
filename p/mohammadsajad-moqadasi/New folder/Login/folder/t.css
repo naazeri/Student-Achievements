@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-image: url(img/background-design.jpg);
+    background-repeat: repeat; 
+}
+h1{
+    color: rgb(255, 187, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+samp{
+    color: rgb(0, 60, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col{
+    margin-top: 50px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+.email{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-image: url(img/542638.png);
+    padding: 25px;
+    margin-bottom: 10px;
+}
+.email:hover{
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-image: url(img/email-icon-1024x1024-hs4pb2t9.png);
+    padding: 25px;
+}
+.em{
+    border-color: rgb(225, 235, 235);
+    border-top: 1px;
+    border-left: 1px ;
+    border-right: 1px ;
+    margin: 20px;
+    padding: 3px;
+    width: 240px;
+}
+.text{
+    margin-right: 230px;
+    font-size: 10px;
+}
