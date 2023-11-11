@@ -20,7 +20,7 @@ body {
 }
 
 body {
-   background: url(IMG_۲۰۲۳۱۱۰۴_۱۳۳۰۵۳.jpg);
+   background: url(IMG_۲۰۲۳۱۱۰۴_۱۴۵۳۴۲.jpg);
    margin: 0;
    background-repeat: round;
    background-repeat: round repeat;
@@ -48,4 +48,7 @@ a {
 .ga-fp {
    border-radius: 100px;
 
+}
+.number{
+   font-size: 30px;
 }
