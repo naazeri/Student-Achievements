@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,49 +9,64 @@
     <title>My web page</title>
 </head>
 <script>
-    window.addEventListener("load" , () => {
+    window.addEventListener("load", () => {
         const loader = document.querySelector(".loader");
 
         loader.classList.add("loader--hidden")
 
-        loader(".loader").addEventListener("transitionend" , () =>{
+        loader(".loader").addEventListener("transitionend", () => {
             document.body.removeChild(loader(".loader"))
         });
     });
 </script>
+
 <body>
     <div class="loader"></div>
     <div class="continer">
-        <div class="login"><button><a href="./page/login and sign up/index.html"><p>Login & Signup</p></a></button></div>
+        <div class="login"><button><a href="./page/login and sign up/index.html">
+                    <p>Login & Signup</p>
+                </a></button></div>
         <div class="my-logo"><img src="./images/My Logo.jpg" class="logo"></div>
-        <div class="my-name"><h1 class="name">Taha Shirzad</h1></div>
+        <div class="my-name">
+            <h1 class="name">Taha Shirzad</h1>
+        </div>
         <div class="my-social">
             <div class="body-cocial">
-            <a href="https://www.instagram.com/mr_tayro_rm/"><img src="./images/Icon/instagram.png"class="social1"></a>
-            <a href="https://www.youtube.com/@tayro2761/featured"><img src="./images/Icon/youtube.png"class="social2"></a>
-            <a href="https://web.telegram.org/k/#@mr_tayro_rm"><img src="./images/Icon/telegram.png"class="social3"></a>
-            <a href="https://www.linkedin.com/in/ta-yro-4b1442298/"><img src="./images/Icon/linkedin.png"class="social4"></a>
-            <a href="https://twitter.com/MrTayro"><img src="./images/Icon/twitter.png"class="social5"></a>
-            <a href="https://discord.gg/ztTvCQx2EB"><img src="./images/Icon/discord.png"class="social6"></a>
-            <a href="https://www.reddit.com/user/mr_tayro_rm/"><img src="./images/Icon/reddit.png"class="social7"></a>
-            <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./images/Icon/gmail.png"class="social8"></a>
+                <a href="https://www.instagram.com/mr_tayro_rm/"><img src="./images/Icon/instagram.png"
+                        class="social1"></a>
+                <a href="https://www.youtube.com/@tayro2761/featured"><img src="./images/Icon/youtube.png"
+                        class="social2"></a>
+                <a href="https://web.telegram.org/k/#@mr_tayro_rm"><img src="./images/Icon/telegram.png"
+                        class="social3"></a>
+                <a href="https://www.linkedin.com/in/ta-yro-4b1442298/"><img src="./images/Icon/linkedin.png"
+                        class="social4"></a>
+                <a href="https://twitter.com/MrTayro"><img src="./images/Icon/twitter.png" class="social5"></a>
+                <a href="https://discord.gg/ztTvCQx2EB"><img src="./images/Icon/discord.png" class="social6"></a>
+                <a href="https://www.reddit.com/user/mr_tayro_rm/"><img src="./images/Icon/reddit.png"
+                        class="social7"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./images/Icon/gmail.png"
+                        class="social8"></a>
             </div>
         </div>
         <div class="porject">
             <div class="card" onclick="this.classList.toggle('expanded')">
                 <img src="./images/Icon/project.png" alt="" class="label">
                 <div class="text1">
-                  <div class="text-content">
-                    <h1 class="title">My projects</h1>
-                    <div class="body-text">
-                        <a href="./page/calculator/index.html"><img src="./images/Icon/calculator.png" class="por"></a>
-                        <a href="./page/My top ten games/index.html"><img src="./images/Icon/game-controller.png" alt="" class="por"></a>
+                    <div class="text-content">
+                        <h1 class="title">My projects</h1>
+                        <div class="body-text">
+                            <a href="page/calculator/"><img src="./images/Icon/calculator.png" class="por"></a>
+                            <a href="./page/My top ten games/index.html"><img src="./images/Icon/game-controller.png"
+                                    alt="" class="por"></a>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
-              </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" />
+                </svg>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
