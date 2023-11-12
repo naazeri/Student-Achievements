@@ -1,13 +1,13 @@
 header{
     text-align: center;
-    color: green
+    color: red
     
     
 }
 
 body{
     background-size:cover;
-    background: url(NGmsB6.webp);
+    background: url(wwe\ logo.jpg);
     background-size: cover;
     
     
@@ -16,7 +16,7 @@ body{
     width: 20px;
 }
 .logo{
-    color: green;
+    color: red;
     width: 2%;
     height: 10%;
     margin-top: 250px;
@@ -27,74 +27,3 @@ body{
 .ash{
     opacity:20% ;
 }
-.img{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
