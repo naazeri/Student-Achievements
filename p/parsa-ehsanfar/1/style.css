@@ -1,0 +1,32 @@
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.name { font-size: 30px;
+background-color: black;
+color: white;
+text-align: center;
+}
+.title { text-align: center;
+}
+.game-card {
+   margin: 2%;
+   margin-left: 20px;
+   margin-right: 20px;
+
+    text-align: center;
+    border: 2px #ec0808 solid;
+    border-radius: 20px;
+}
+.game-rank{
+    font-size: 15px;
+    border: 2px #000 solid;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(172, 255, 47, 0.644);
+    padding: 1px;
+    
+}
+.game-name{
+    font-size:20px ;
+}
