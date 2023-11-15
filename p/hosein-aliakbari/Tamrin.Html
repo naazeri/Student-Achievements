@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ در داخل شاپ میل کنی؟ اگر کاربر گفت بله به فیمت دو  اضافه شود و در خروجی نشان داده شود
+<head>
+    <title>Tamrin</title>
+</head>
+
+<body>
+<h1>Hi</h1>
+
+<script>
+
+    var drink1 = {
+        name: "Drink 1",
+        price: 9
+    };
+
+    var drink2 = {
+        name: "Drink 2",
+        price: 12
+    };
+
+    var drink3 = {
+        name: "Drink 3",
+        price: 7
+    };
+
+    var drinkChoice = prompt("Which drink would you like?\n1. Drink 1 ($9)\n2. Drink 2 ($12)\n3. Drink 3 ($7)");
+
+    var total = 0;
+
+    if (drinkChoice === "1") {
+        total = drink1.price;
+    } else if (drinkChoice === "2") {
+        total = drink2.price;
+    } else if (drinkChoice === "3") {
+        total = drink3.price;
+    }
+
+    var eatInside = prompt("Do you want to eat inside the shop?\n1. Yes\n2. No");
+
+    if (eatInside === "1") {
+        total += 2;
+    }
+    
+    alert("Total price: $" + total);
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+</html>

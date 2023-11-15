@@ -1,0 +1,93 @@
+h2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255)
+}
+
+p {
+    font-size: 20px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+h1 {
+background-image: url(BACKS.png);
+display: inline-block;
+color: black;
+background: linear-gradient(to bottom right, rgb(98, 98, 100), rgb(255, 255, 255));
+
+}
+
+h3 {
+    background-image: url(BACKS.png);
+    display: inline-block;
+    border: solid 2px;
+    color: black;
+border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(ch2.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: 967f7f;
+    color: #e4d0d0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.game-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #131212; /* Background for the game container */
+    border:5px double #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.game {
+    margin: 20px 0;
+    color: #e4d0d0;
+}
+
+.game img {
+    max-width: 100%;
+}
+
+.game h2 {
+    margin: 10px 0;
+}
+
+.game p {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #312f2f;
+}
+
+th {
+    background-color: #4d4949;
+}
+
