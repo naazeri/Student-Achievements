@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    
+  }
+  .container {
+    max-width: 1280px;
+  }
+  .login__form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 80vh;
+  }
+  .login__form__img img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+  }
+  .login__form__right {
+    padding: 2rem;
+    background-image: url(1975618.webp);
+    background-size: cover;
+  }
+  .login__form__right h1 {
+    margin-bottom: 2rem;
+  }
+  .login__form__right form input,
+  .login__form__right form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 2px solid #cdd9ea;
+    padding: 0.6rem;
+    border-radius: 5px;
+    outline: none;
+  }
+  .login__form__right form input:focus {
+    border: 2px solid rgb(62, 125, 251);
+    box-shadow: 0 0 0px 2px rgba(62, 125, 251, 0.2);
+  }
+  .login__form__right form label {
+    color: #989b9f;
+    font-size: 0.8rem;
+  }
+  .login__form__right form button {
+    background-color: rgb(62, 125, 251);
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .login__form__right form button:hover {
+    background-color: rgb(23, 81, 197);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .login__form {
+      display: flex;
+      flex-direction: row;
+      background-color: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .login__form__right {
+      padding: 5rem;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .login__form__img {
+      width: 50%;
+    }
+    .login__form__img img {
+      height: 90vh;
+      width: 100%;
+      display: block;
+    }
+  }
+  .h1{
+    color: #fefeff;
+  }
+  .Right-Img{
+    background-size: cover;
+  }

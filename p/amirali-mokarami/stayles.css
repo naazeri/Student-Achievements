@@ -41,3 +41,8 @@ h1{
     background: rgb(0, 243, 231);
     color: rgb(0, 0, 0);
 }
+.log{
+    width: 35px;
+    height: 35px;
+    color: rgb(0, 243, 231);
+}
