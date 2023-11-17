@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,11 +6,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
-body{
-    background: rgb(180,58,144);
-    background: linear-gradient(313deg, rgba(180,58,144,1) 28%, rgba(149,29,253,1) 71%, rgba(69,88,252,1) 100%);
+
+body {
+    background: rgb(180, 58, 144);
+    background: linear-gradient(313deg, rgba(180, 58, 144, 1) 28%, rgba(149, 29, 253, 1) 71%, rgba(69, 88, 252, 1) 100%);
 }
-.personality-info{
+
+.personality-info {
     text-align: center;
     color: white;
     background-image: url(7368744_3586947.jpg);
@@ -19,16 +21,19 @@ body{
     background-attachment: fixed;
     padding: 100px;
 }
-.personality-info img{
+
+.personality-info img {
     width: 200px;
     border-radius: 50%;
     border: none;
     box-shadow: 10px 10px 20px 10px rgb(0, 0, 0);
 }
-.personality-info p{
+
+.personality-info p {
     font-size: medium;
 }
-.background-Workings #bm{
+
+.background-Workings #bm {
     margin-top: 40px;
     padding: 5px;
     border: none;
@@ -39,7 +44,8 @@ body{
     transform: matrix3d();
     transition: all .5s;
 }
-.background-Workings #bm :hover{
+
+.background-Workings #bm :hover {
     background-color: rgb(174, 0, 255);
     margin: -10px;
     padding: 10px;
@@ -47,85 +53,100 @@ body{
     color: snow;
     transition: all .5s;
 }
-.background-Workings a{
+
+.background-Workings a {
     color: snow;
 }
-.links{
+
+.links {
     margin-top: 70px;
     display: inline-block;
-    
+
 }
-.links #tel{
+
+.links #tel {
     color: rgb(0, 183, 255);
     border-radius: 10%;
     padding: 10px;
     transition: all .5s;
 }
-.links #tel :hover{
+
+.links #tel :hover {
     transition: all .5s;
     color: rgb(255, 255, 255);
     border-radius: 10%;
     padding: 20px;
 }
-.links #wha{
+
+.links #wha {
     color: rgb(60, 255, 0);
     border-radius: 10%;
     padding: 10px;
 }
-.links #wha :hover{
+
+.links #wha :hover {
     transition: all .5s;
     color: rgb(255, 255, 255);
     border-radius: 10%;
     padding: 20px;
 }
-.links #ins{
+
+.links #ins {
     color: rgb(255, 60, 0);
     border-radius: 10%;
     padding: 10px;
 }
-.links #ins :hover{
+
+.links #ins :hover {
     transition: all .5s;
     color: rgb(255, 255, 255);
     border-radius: 10%;
     padding: 20px;
 }
-.links #dis{
+
+.links #dis {
     color: rgb(4, 0, 216);
     border-radius: 10%;
     padding: 10px;
 }
-.links #dis :hover{
+
+.links #dis :hover {
     transition: all .5s;
     color: rgb(255, 255, 255);
     border-radius: 10%;
     padding: 20px;
 }
-.links #ste{
+
+.links #ste {
     color: rgb(0, 0, 0);
     border-radius: 10%;
     padding: 10px;
 }
-.links #ste :hover{
+
+.links #ste :hover {
     transition: all .5s;
     color: rgb(255, 255, 255);
     border-radius: 10%;
     padding: 20px;
 }
-.links #you{
+
+.links #you {
     color: rgb(255, 0, 55);
     border-radius: 10%;
     padding: 10px;
 }
-.links #you :hover{
+
+.links #you :hover {
     transition: all .5s;
     color: rgb(255, 255, 255);
     border-radius: 10%;
     padding: 20px;
 }
-.projects{
+
+.projects {
     display: flex;
-    background: rgb(55,34,195);
-    background: linear-gradient(313deg, rgba(55,34,195,1) 15%, rgba(253,45,224,1) 76%);
+    background: rgb(55, 34, 195);
+    background: linear-gradient(313deg, rgba(55, 34, 195, 1) 15%, rgba(253, 45, 224, 1) 76%);
     box-shadow: 0 10px 20px 5px rgb(0, 0, 0);
     margin-top: px;
     flex-wrap: wrap;
@@ -135,7 +156,8 @@ body{
     margin-bottom: 50px;
     padding: 20px;
 }
-.project-histroy{
+
+.project-histroy {
     width: 350px;
     height: 550px;
     display: flex;
@@ -148,65 +170,78 @@ body{
     text-align: center;
     box-shadow: 0 10px 20px 5px rgb(0, 0, 0);
     padding: 20px;
+    transition: all .5s ease-in-out 0s;
 }
-.project-histroy h1{
+
+.project-histroy h1 {
     font-size: 30px;
     color: darkturquoise;
 }
-.project-histroy p{
+
+.project-histroy p {
     font-size: 20px;
     font-weight: light;
     text-align: justify;
     color: black;
 }
-.project-histroy a{
+
+.project-histroy a {
     font-size: 20px;
     color: snow;
 }
-.project-histroy img{
+
+.project-histroy img {
     width: 250px;
     border-radius: 5%;
     border: none;
 }
-.projects :hover{
+
+.projects :hover {
     background-color: rgb(220, 20, 120);
     transition: all .5s;
 }
-.project-histroy #ss:hover{
+
+.project-histroy #ss:hover {
     transition: all .5s;
     background-color: tomato;
     padding: 10px;
     border-radius: 10px;
 }
-.project-histroy:hover{
-    transition: all .3s ;
+
+.project-histroy:hover {
+    transition: all .3s;
     margin-left: 30px;
     margin-right: 30px;
     width: 380px;
     hyphens: manual;
     translate: inherit;
 }
-.about{
+
+.about {
     display: inline-flex;
     margin: 30px;
 }
-.about:hover{
+
+.about:hover {
     padding: 5px;
     background-color: blueviolet;
     transition: all .8s;
     border-radius: 50px;
 }
-.about-pic img{
+
+.about-pic img {
     border-radius: 50px;
     box-shadow: 0 10px 20px 5px rgb(0, 0, 0);
     border: none;
 }
-.about-footer p{
+
+.about-footer p {
     padding: 10px;
     font-size: 15px;
-    text-align: justify;   
+    text-align: justify;
 }
-.Copyrite p{
+
+.Copyrite p {
     color: rgb(58, 58, 58);
     font-size: small;
     margin: 10px;
