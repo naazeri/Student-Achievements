@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="">
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="continer">
+        <div class="info" id="info">
+            <h1>Taha Shirzad</h1>
+            <img src="./images/My Logo.jpg">
+        </div>
+        <div class="pagenumberone" id="pageNumberOne">
+            <h3>Please choose one from 1 to 100</h3>
+            <input type="number" id="ferstNumber" min="0" max="100" oninput="checkInput()" required>
+            <p id="errorTag"></p>
+            <button onclick="setTheNumber()">Enter</button>
+        </div>
+            <div class="pagenumbertow" id="pageNumberTow">
+            <h3>Guess from 1 to 100</h3>
+            <input type="number" id="guessNumber">
+            <button onclick="buttonGuees()">Enter</button>
+            <p id="ErrorPage"></p>
+            <p id="Hint"></p>
+            <p id="score"></p>
+            <a href=""><button type="rest-pages">Rest Games</button></a>
+        </div>
+        <div class="winer" id="winer">
+            <h1>You Win</h1>
+            <p>Good job</p>
+            <a href=""><button type="rest-pages">Rest Games</button></a>
+        </div>
+        <div class="over" id="over">
+            <h1>You Loser</h1>
+            <p>Try Agin</p>
+            <a href=""><button type="rest-pages">Rest Games</button></a>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
