@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body{
+            background-color: black;
+            margin: 0 auto;
+        }
+        h1{
+            color: red;
+            font-family: Tahoma;
+            margin-left: 595px;
+            margin-top: 100px;
+            border: #F1DB4B solid 3px;
+            border-radius: 5px;
+            padding-left: 33px;
+            margin-right: 620px;
+            border-top: 222px;
+            border-bottom: 222px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <title>guess game</title>
+</head>
+<body>
+<h1>POWERED BY <a href="index.html">GIT</a></h1>
+    <script>
+        // بازیکن اول شماره انتخاب می‌کند
+        var playerOneNumber = parseInt(prompt("Player one, choose a number between 1 and 100:"));
+
+        // تأیید بازیکن دوم برای شروع بازی
+        var startGame = confirm("Player two, it's your turn to guess. Click OK to start the game.");
+
+        // اگر تأیید شود، بازی شروع می‌شود
+        if (startGame) {
+            // پاک کردن صفحه
+            console.clear();
+
+            // تعداد حدس‌های مجاز
+            var numberOfAttempts = 5;
+
+            // Initialize attempt variables
+            var attemptNumber = 0;
+            var userGuess;
+
+            // عدد فرض شده توسط بازیکن اول
+            var numberToGuess = playerOneNumber;
+
+            // Game loop
+            while (attemptNumber < numberOfAttempts) {
+                // Get guess from the second player
+                userGuess = parseInt(prompt("Enter your guess between 1 and 100:"));
+
+                // Increment attempt number
+                attemptNumber++;
+
+                // Check the guess
+                if (userGuess === numberToGuess) {
+                    // Correct guess
+                    alert("Congratulations! Your guess is correct. You win!");
+                    break;
+                } else if (Math.abs(userGuess - numberToGuess) <= 10) {
+                    // Close guess
+                    if (userGuess < numberToGuess) {
+                        alert("Close! Guess higher.");
+                    } else {
+                        alert("Close! Guess lower.");
+                    }
+                } else {
+                    // Incorrect guess
+                    if (userGuess < numberToGuess) {
+                        alert("Guess higher.");
+                    } else {
+                        alert("Guess lower.");
+                    }
+                }
+            }
+
+            // If all attempts are used and the game ends
+            if (attemptNumber === numberOfAttempts) {
+                alert("Out of attempts. The correct number was " + numberToGuess + ". Player one wins.");
+            }
+        } else {
+            alert("Game canceled. Player one did not choose a number.");
+        }
+
+    </script>
+</body>
+</html>

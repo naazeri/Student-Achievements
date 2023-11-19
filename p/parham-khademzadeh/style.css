@@ -134,3 +134,9 @@ span {
     background-color: rgb(67, 6, 67);
     transition: background 2s;
 }
+/* -------------------------------------------------------------------------------------------- */
+.arcade{
+    width: 38px;
+    margin: 0 12px;
+    color: springgreen;
+}
