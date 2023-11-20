@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guessing game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <br>
+        <br>
+        <br>
+    <div class="titr">
+        <h1 class="name-titr">guessing game</h1>
+        <h3 class="description">Hello, we want to play an interesting game together Note that this game is for two players</h3>
+        <h3 class="description2">Please say a number from 1 to 100 and the second person must guess it. Note that the second person can only guess 10 times. If he cannot guess correctly, he loses.</h3>
+    </div>
+    <br>
+    <div class="karbar">
+        <p class="addad-aval">Player 1, enter a number between 1 and 100</p>
+        <input class="makhfi" type="password" id="inputNumber" min="1" max="100">
+        <button onclick="startGame()">Start Game</button>
+        <p>----------------------------</p>
+        <p id="hint">your distance</p>
+        <p>----------------------------</p>
+        <p class="addad-dovom">Player 2, make your guess</p>
+        <input type="number" id="guessNumber" min="1" max="100">
+        <button onclick="makeGuess()">Guess</button>
+    </div>
+    <div class="play-again">
+        <a href="index.html"><img src="image/3593063-200.png" alt="not found"></a>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

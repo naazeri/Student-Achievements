@@ -2,34 +2,86 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>lilomidreza.ir</title>
-  <link rel="stylesheet" href="style.css">
-
- 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Omidreza.ir</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="center">
-      <br>
-      <br>
-        <image class="aksme" src="image/photo_2023-10-17_20-00-55.jpg" alt="Notfound"/>
-        <div>
-          <br>
-          <h1 class="nameme">Omidreza☠️<span>Khaleghi</span></h1>
+    <header class="container">
+        <div class="page-header">
+            <div class="Sentence">
+                <h2>☠️Towards interest and success☠️</h2>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="index.html"  class="active" style="--navAni:1">Home</a></li>
+                <li><a href="About Me/index.html" style="--navAni:2">About Me</a></li>
+                <li><a href="My Projects/index.html" style="--navAni:3">My Projects</a></li>
+                <li><a href="Games/index.html" style="--navAni:4">Games</a></li>
+                <li><a href="Appreciation/index.html" style="--navAni:5">Appreciation</a></li>
+            </ul>
+            <label class="mode">
+                <input type="checkbox" id="darkModeToggle">
+                <i class='bx bxs-moon'></i>
+            </label>
         </div>
-        <br>
-        <br>
-        <a class="pic" href="web tamrin/index.html"><img class="pic" src="image/logo-website-website-icon-with-png-and-vector-format-for-unlimited-22.png" alt="Notfound"></a>
-        <a class="pic" href="https://www.instagram.com/"><img class="pic" src="image/Instagram_logo_2016.svg.webp" alt="Notfound"></a>
-        <a class="pic" href="https://telegram.org/"><img class="pic" src="image/Telegram_logo.svg.webp" alt="Notfound"></a>
-        <a class="pic" href="https://www.whatsapp.com/"><img class="pic" src="image/WhatsApp.svg.webp" alt="Notfound"></a>
-        <a class="pic" href="https://twitter.com/?lang=en"><img class="pic" src="image/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="Notfound"></a>
-        <a href="https://open.spotify.com/"><img class="pic" src="image/Spotify_icon.svg.png" alt="Notfound"></a>
-    </div>
-  </div>
+    </header>
+
+
+    <section class="container">
+        <div class="main">
+            <div class="images">
+                <img src="image/OmidrezaKhaleghi.jpg" alt="" class="img-w">
+                <span class="bg-effect-1">
+                <span class="bg-effect-1"></span>
+
+                </span>
+            </div>
+            <div class="detail">
+                <h3>Hi, I'm</h3>
+                <h1><span style="color:aqua;">Omidreza</span> Khaleghi</h1> 
+                <p>I am a computer science student. I try to always do my best and be full of energy during my work. My social networks link👇
+                </p>  
+                <div class="social">
+                    <a href="https://www.whatsapp.com/"><img class="img-i" src="image/WhatsApp.svg.png" alt=""></a>
+                    <a href="https://www.instagram.com/"><img class="img-i" src="image/Instagram_icon.png" alt=""></a>
+                    <a href="https://web.telegram.org/a/"><img class="img-i" src="image/Telegram_logo.svg.webp" alt="Not Found"></a>
+                    <a href="https://www.youtube.com/"><img class="img-i" src="image/YouTube_full-color_icon_(2017).svg.webp" alt="Not Found"></a>            
+                    <a href="https://open.spotify.com/"><img class="img-i" src="image/Spotify_icon.svg.png" alt="Not Found"></a>
+                    <a href="https://twitter.com/?lang=en"><img class="img-i" src="image/Logo_of_Twitter.svg.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+        const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+        if (isDarkMode) {
+            body.classList.add('dark-mode');
+            darkModeToggle.checked = true;
+        }
+        darkModeToggle.addEventListener('change', () => {
+            if (darkModeToggle.checked) {
+                body.classList.add('dark-mode');
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        });
+    </script>
 </body>
 
 </html>

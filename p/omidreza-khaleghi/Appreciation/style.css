@@ -1,0 +1,36 @@
+   .center {
+        text-align: center;
+      }
+      
+      .image {
+        width: 70%;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        background: url(image/giphy777.gif);
+      }
+      
+      .container {
+        background-color: #1d211dac;
+        width: 100vw;
+        height: 100vh;
+      }
+      
+    
+      .aksme {
+        width: 370px;
+      }
+    
+      a {
+        width: 4px;
+      }
+    
+      .matn {
+        color: yellow;
+      }
+      

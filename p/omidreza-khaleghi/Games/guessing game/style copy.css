@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "foont";
+    src: url(font/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "fooont";
+    src: url(font/Roboto-LightItalic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(image/giphy200.gif);
+    background-repeat: no-re;
+    background-size: contain;
+}
+
+.all {
+    background-color: rgba(234, 255, 0, 0.558);
+    height: 100vh;
+}
+
+.titr {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid pink;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.karbar {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.name-titr {
+    color: green;
+    font-family: "foont";
+    font-weight: bold;
+}
+
+.description {
+    color: rgb(103, 171, 0);
+    font-family: "fooont";
+}
+
+.description2 {
+    color: rgb(103, 171, 0);
+    font-family: "fooont";
+}
+
+.addad-aval {
+    color: blue;
+    font-weight: bold;
+}
+
+.addad-dovom {
+    color: red;
+    font-weight: bold;
+}

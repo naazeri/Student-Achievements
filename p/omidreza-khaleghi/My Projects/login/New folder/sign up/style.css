@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "font";
+    src: url(font/Roboto-BoldItalic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(image/wp7373809.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.all {
+    background-color: rgba(174, 71, 247, 0.295);
+    height: 150vh;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    padding-top: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.signup {
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-family: font;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="Email"] {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.aks {
+    text-align: center;
+    width: 40%;
+    padding-left: 87px;
+}
+
+.aks2 {
+    text-align: center;
+    width: 15%;
+}
+

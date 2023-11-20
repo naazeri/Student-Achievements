@@ -1,0 +1,47 @@
+   .center {
+        text-align: center;
+      }
+      
+      .image {
+        width: 70%;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        background: url(image/giphy55.gif);
+      }
+      
+      .container {
+        background-color: #f6ff00ac;
+        width: 100vw;
+        height: 100vh;
+      }
+      
+      .text-blue {
+        color: #0000ff;
+      }
+    
+      .pic {
+        width: 65px;
+      }
+    
+      .aksme {
+        width: 370px;
+      }
+    
+      a {
+        width: 4px;
+      }
+    
+      .nameme {
+          text-align: center;
+        font-weight: bold;
+        color: yellow;
+        font-size: 300%;
+        font-family: font1;
+      }
+      
