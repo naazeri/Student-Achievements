@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Singel Player</title>
+  </head>
+  <body>
+    <div class="loader"></div>
+    <div class="continer">
+      <div class="games" id="games">
+        <h1>guess number 1 of 100</h1>
+        <input
+          type="number"
+          id="guessNumber"
+          max="100"
+          min="1"
+          oninput="inputNumber()"
+          required
+        />
+        <h3 id="score"></h3>
+        <h3 id="ErrorPage"></h3>
+        <h3 id="hint"></h3>
+        <button id="enter" onclick="enterNumber()">
+          <h2>Enter the number</h2>
+        </button>
+        <a href=""><button type="rest-pages">Rest Games</button></a>
+        <button onclick="backToPage()"><h3>Back to the main page</h3></button>
+      </div>
+      <div class="winer" id="winer">
+        <h1>You Win</h1>
+        <p>Good job</p>
+        <a href=""><button type="rest-pages">Rest Games</button></a>
+      </div>
+
+      <div class="over" id="over">
+        <h1>You Loser</h1>
+        <p>Try Agin</p>
+        <a href=""><button type="rest-pages">Rest Games</button></a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
