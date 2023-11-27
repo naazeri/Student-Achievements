@@ -1,0 +1,60 @@
+#holder {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    background-image: url("backgroundimage4735444640.png");
+    font-size: 20px;
+    background-color: cyan;
+    border: 3px solid rgb(92, 150, 150);
+    margin-top: 150px;
+    margin-left: 420px;
+    width: 500px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height: 350px;/* h = 350px - w = 400*/
+}
+#holder:hover {
+    box-shadow: rgb(38, 57, 77) 0px 10px 20px -5px;
+}
+#profilePic {
+    margin-top: 20px;
+}
+#showSkillsButton, #hideSkillsButton {
+    font-weight: bold;
+    border: 2px solid rgb(153, 132, 12);
+    box-shadow: rgb(38, 57, 77) 0px 5px 9px -1px;
+    padding-right: 30px;
+    padding-left: 32px;
+    margin-left: 40px;
+    background-color: rgb(196, 133, 16);
+}
+#showProjectsButton, #hideProjectsButton {
+    margin-left: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 5px 9px -1px;
+    padding-right: 30px;
+    background-color: rgba(30, 30, 165, 0.795);
+    /*border: 1px solid rgba(14, 14, 126, 0.836);*/
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 35px;
+}
+#showBioButton, #hideBioButton {
+    box-shadow: rgb(38, 57, 77) 0px 5px 9px -1px;
+    background-color: rgba(15, 145, 15, 0.87);
+    border: 1px solid rgba(7, 114, 7, 0.904);
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 0px;
+}
+body {
+    background-image: url("download\ \(1\).jpg");
+    
+}
+#skillsUl {
+
+    text-align: left;
+    font-size: 20px;
+}
+.hiddenButtons {
+    display: none;
+}

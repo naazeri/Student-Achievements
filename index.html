@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="دست آورد ها و افتخارات دانشجو های عزیزم" />
-    <meta name="author" content="reza nazeri" />
-    <title>دست‌آورد‌های دانشجو‌ها | naazeri</title>
-    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </head>
 
-  <body>
-    <br />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="دست آورد ها و افتخارات دانشجو های عزیزم" />
+  <meta name="author" content="reza nazeri" />
+  <title>دست‌آورد‌های دانشجو‌ها | naazeri</title>
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
 
-    <div class="container text-center">
-      <div id="students-list" class="row g-5 justify-content-center"></div>
-    </div>
+<body>
+  <br />
 
-    <script src="./lib/handlebars/handlebars.min.js"></script>
-    <script id="handlebars-template" type="text/x-handlebars-template">
+  <div class="container text-center">
+    <div id="students-list" class="row g-5 justify-content-center"></div>
+  </div>
+
+  <script src="./lib/handlebars/handlebars.min.js"></script>
+  <script id="handlebars-template" type="text/x-handlebars-template">
       {{#each students}}
         <div class='col-auto'>
           <a href='./p/{{slug}}' >
@@ -43,69 +44,71 @@
       {{/each}}
     </script>
 
-    <script>
-      const shuffle = (array) => {
-        for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
+  <script>
+    const shuffle = (array) => {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    };
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+      let data = {
+        students: [
+          { firstName: 'مهزیار', lastName: 'کریمی', slug: 'mahziar-karimi', image: false },
+          { firstName: 'یونس', lastName: 'ابراهیم آبادی', slug: 'yones-ebrahimabadi', image: true },
+          { firstName: 'طاها', lastName: 'شیرزاد', slug: 'taha-shirzad', image: true },
+          { firstName: 'پرهام', lastName: 'خادم زاده', slug: 'parham-khademzadeh', image: true },
+          { firstName: 'یوسف', lastName: 'کیان', slug: 'yousef-kian', image: false },
+          { firstName: 'پارسا', lastName: 'ظهیری', slug: 'parsa-zahiri', image: true },
+          { firstName: 'حسام الدین', lastName: 'سید', slug: 'hesam-seyed', image: true },
+          { firstName: 'امیرعلی', lastName: 'یاراحمدی', slug: 'amirali-yarahmadi', image: true },
+          { firstName: 'علی', lastName: 'نجات', slug: 'ali-nejat', image: true },
+          { firstName: 'سبحان', lastName: 'صفار', slug: 'sobhan-saffar', image: true, website: 'saffaar.ir' },
+          { firstName: 'امیررضا', lastName: 'توانایی', slug: 'amirreza-tavanaee', image: true },
+          { firstName: 'مهرشاد', lastName: 'پهلوان', slug: 'mehrshad-pahlevan', image: true },
+          { firstName: 'محمد', lastName: 'ذکاء', slug: 'mohammad-zaka', image: true },
+          { firstName: 'حسین', lastName: 'شخم گر', slug: 'hossein-shokhmgar', image: true },
+          { firstName: 'امیدرضا', lastName: 'خالقی', slug: 'omidreza-khaleghi', image: true },
+          { firstName: 'سید عطا', lastName: 'شیری', slug: 'ata-shiri', image: true },
+          { firstName: 'امیرعلی', lastName: 'مکرمی', slug: 'amirali-mokarami', image: false },
+          { firstName: 'محمد سجاد', lastName: 'مقدسی', slug: 'mohammadsajad-moqadasi', image: true },
+          { firstName: 'امین', lastName: 'سحابی', slug: 'amin-sahabi', image: true },
+          { firstName: 'امیرحسین', lastName: 'سزاواررحمت', slug: 'amirhossein-sezavar', image: true },
+          { firstName: 'امیررضا', lastName: 'ملکیان', slug: 'amirreza-malekian', image: true },
+          { firstName: 'عرفان', lastName: 'نقاشباشی', slug: 'erfan-naqashbashi', image: true },
+          { firstName: 'حمید', lastName: 'مومنی', slug: 'hamid-momeni', image: false },
+          { firstName: 'حسین', lastName: 'شکرگزار', slug: 'hossein-shokrgozar', image: true },
+          { firstName: 'علی', lastName: 'سید موسوی', slug: 'ali-mosavi', image: true },
+          { firstName: 'پارسا', lastName: 'رضایی', slug: 'parsa-rezae', image: true },
+          { firstName: 'محمد رسول', lastName: 'سادات', slug: 'mohammadrasol-sadat', image: true },
+          { firstName: 'محسن', lastName: 'موذن', slug: 'mohsen-moazen', image: false },
+          { firstName: 'امیررضا', lastName: 'برادران', slug: 'amirreza-baradaran', image: false },
+          { firstName: 'یوسف', lastName: 'پیرنیا', slug: 'yosof-pirnia', image: false },
+          { firstName: 'امین', lastName: 'محمدی', slug: 'amin-mohamadi', image: false },
+          { firstName: 'امیرعلی', lastName: 'عین آبادی', slug: 'amirali-einabadi', image: true },
+          { firstName: 'مرتضی', lastName: 'طالبی', slug: 'morteza-talebi', image: true },
+          { firstName: 'ابوالفضل', lastName: 'حیدری', slug: 'abolfazl-heidari', image: true },
+          { firstName: 'پارسا', lastName: 'احسان فر', slug: 'parsa-ehsanfar', image: true },
+          { firstName: 'حسین', lastName: 'علی اکبری', slug: 'hosein-aliakbari', image: true },
+        ],
       };
 
-      document.addEventListener('DOMContentLoaded', (event) => {
-        let data = {
-          students: [
-            { firstName: 'پرهام', lastName: 'خادم زاده', slug: 'parham-khademzadeh', image: true },
-            { firstName: 'یوسف', lastName: 'کیان', slug: 'yousef-kian', image: false },
-            { firstName: 'پارسا', lastName: 'ظهیری', slug: 'parsa-zahiri', image: true },
-            { firstName: 'حسام الدین', lastName: 'سید', slug: 'hesam-seyed', image: true },
-            { firstName: 'امیرعلی', lastName: 'یاراحمدی', slug: 'amirali-yarahmadi', image: true },
-            { firstName: 'علی', lastName: 'نجات', slug: 'ali-nejat', image: true },
-            { firstName: 'سبحان', lastName: 'صفار', slug: 'sobhan-saffar', image: true, website: 'saffaar.ir' },
-            { firstName: 'امیررضا', lastName: 'توانایی', slug: 'amirreza-tavanaee', image: true },
-            { firstName: 'مهرشاد', lastName: 'پهلوان', slug: 'mehrshad-pahlevan', image: true },
-            { firstName: 'طاها', lastName: 'شیرزاد', slug: 'taha-shirzad', image: true },
-            { firstName: 'محمد', lastName: 'ذکاء', slug: 'mohammad-zaka', image: true },
-            { firstName: 'حسین', lastName: 'شخم گر', slug: 'hossein-shokhmgar', image: true },
-            { firstName: 'امیدرضا', lastName: 'خالقی', slug: 'omidreza-khaleghi', image: true },
-            { firstName: 'سید عطا', lastName: 'شیری', slug: 'ata-shiri', image: true },
-            { firstName: 'امیرعلی', lastName: 'مکرمی', slug: 'amirali-mokarami', image: false },
-            { firstName: 'محمد سجاد', lastName: 'مقدسی', slug: 'mohammadsajad-moqadasi', image: true },
-            { firstName: 'امین', lastName: 'سحابی', slug: 'amin-sahabi', image: true },
-            { firstName: 'امیرحسین', lastName: 'سزاواررحمت', slug: 'amirhossein-sezavar', image: true },
-            { firstName: 'یونس', lastName: 'ابراهیم آبادی', slug: 'yones-ebrahimabadi', image: true },
-            { firstName: 'امیررضا', lastName: 'ملکیان', slug: 'amirreza-malekian', image: true },
-            { firstName: 'عرفان', lastName: 'نقاشباشی', slug: 'erfan-naqashbashi', image: true },
-            { firstName: 'حمید', lastName: 'مومنی', slug: 'hamid-momeni', image: false },
-            { firstName: 'حسین', lastName: 'شکرگزار', slug: 'hossein-shokrgozar', image: true },
-            { firstName: 'علی', lastName: 'سید موسوی', slug: 'ali-mosavi', image: true },
-            { firstName: 'پارسا', lastName: 'رضایی', slug: 'parsa-rezae', image: true },
-            { firstName: 'محمد رسول', lastName: 'سادات', slug: 'mohammadrasol-sadat', image: true },
-            { firstName: 'محسن', lastName: 'موذن', slug: 'mohsen-moazen', image: false },
-            { firstName: 'امیررضا', lastName: 'برادران', slug: 'amirreza-baradaran', image: false },
-            { firstName: 'یوسف', lastName: 'پیرنیا', slug: 'yosof-pirnia', image: false },
-            { firstName: 'امین', lastName: 'محمدی', slug: 'amin-mohamadi', image: false },
-            { firstName: 'امیرعلی', lastName: 'عین آبادی', slug: 'amirali-einabadi', image: true },
-            { firstName: 'مرتضی', lastName: 'طالبی', slug: 'morteza-talebi', image: true },
-            { firstName: 'ابوالفضل', lastName: 'حیدری', slug: 'abolfazl-heidari', image: true },
-            { firstName: 'پارسا', lastName: 'احسان فر', slug: 'parsa-ehsanfar', image: true },
-            { firstName: 'حسین', lastName: 'علی اکبری', slug: 'hosein-aliakbari', image: true },
-          ],
-        };
+      // sort students by family name
+      // data.students.sort((a, b) => a.lastName.localeCompare(b.lastName))
 
-        // sort students by family name
-        // data.students.sort((a, b) => a.lastName.localeCompare(b.lastName))
+      // randomize order
+      // data.students = shuffle(data.students);
 
-        // randomize order
-        data.students = shuffle(data.students);
+      const template = document.getElementById('handlebars-template');
+      const templateFunction = Handlebars.compile(template.innerHTML);
+      const completedHtml = templateFunction(data);
 
-        const template = document.getElementById('handlebars-template');
-        const templateFunction = Handlebars.compile(template.innerHTML);
-        const completedHtml = templateFunction(data);
+      const app = document.getElementById('students-list');
+      app.innerHTML = completedHtml;
+    });
+  </script>
+</body>
 
-        const app = document.getElementById('students-list');
-        app.innerHTML = completedHtml;
-      });
-    </script>
-  </body>
 </html>
