@@ -23,7 +23,7 @@
   <script id="handlebars-template" type="text/x-handlebars-template">
       {{#each students}}
         <div class='col-auto'>
-          <a href='./p/{{slug}}' >
+          <a href='{{#if url}}{{url}}{{else}}./p/{{slug}}{{/if}}' >
             <div class='card border-light' style='width: 14rem'>
               <img
                 src='{{#if image}} ./image/student/{{slug}}.jpg {{else}} ./image/user-placeholder.png {{/if}}'
@@ -56,7 +56,7 @@
     document.addEventListener('DOMContentLoaded', (event) => {
       let data = {
         students: [
-          { firstName: 'مهزیار', lastName: 'کریمی', slug: 'mahziar-karimi', image: false },
+          { firstName: 'مهزیار', lastName: 'کریمی', slug: 'mahziar-karimifar', url: 'https://mahziarkf.github.io/schoolProfile/', image: true },
           { firstName: 'یونس', lastName: 'ابراهیم آبادی', slug: 'yones-ebrahimabadi', image: true },
           { firstName: 'طاها', lastName: 'شیرزاد', slug: 'taha-shirzad', image: true },
           { firstName: 'پرهام', lastName: 'خادم زاده', slug: 'parham-khademzadeh', image: true },
