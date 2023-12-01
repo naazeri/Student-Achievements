@@ -1,31 +1,24 @@
 body {
-  background-image: url(j1/images/images/4k\ city\ image.jpg);
+  background-image: url(images/outrun-neon-dark-background-purple-3840x2160-4523.jpg);
   background-size: cover;
 }
-
 .img {
   width: 200px;
   height: 200px;
   margin-top: 50px;
   border-radius: 50%;
 }
-
 .card {
   text-align: center;
   display: block;
 }
-
 .text {
   font-family: 'Times New Roman', Times, serif;
   margin-top: 500;
+  color: rgb(226, 43, 144);
 }
-
 .logo {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 200);
   width: 3%;
   height: 22%;
-  margin-left: 470px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  margin-right: -350px;
 }

@@ -1,0 +1,25 @@
+
+button{
+    border-radius: 10px;
+    border: 1.px;
+    color: #fffffff8;
+    text-align: center;
+    padding:20PX;
+    margin:5PX 2.PX;
+    padding-bottom:10PX;
+    background-color:rgb(204, 0, 211);
+    width: 60PX;
+     height:55PX;
+}
+div{
+    text-align: center;    
+}
+body{
+    background-image: url(images/wp7196330-purple-4k-wallpapers.png);
+    background-size: cover;
+}
+.calculator{
+    width: 200
+    vh
+    ;
+}

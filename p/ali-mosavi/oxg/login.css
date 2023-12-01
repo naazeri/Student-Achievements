@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+.form{
+    margin-top:6%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(226, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 4px 8px 20px 0px rgb(89, 209, 218);
+    width: 350px;
+    height: 600px;
+}
+.input{
+    padding: px;
+    background-color: rgb(255, 231, 248);
+}
+.lable{
+    margin-bottom: 10px;
+}
+.button{
+    height: 60px;
+    width: 150px;
+    background-color: rgb(91, 224, 202);
+    font-size: 20px;
+    border: none;
+    padding: 11px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.2 ease;
+    
+}
+button:hover{
+   
+    background-color: rgb(81, 84, 242)
+}
+button:active{
+    box-shadow:none;
+    top:10px;
+}
+div {
+    text-align: center;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
