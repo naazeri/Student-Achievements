@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess Number</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f2f2f2;
+
+      }
+      @font-face {
+    font-family: "Font";
+    src: url(./unispace\ bd.ttf);
+}
+
+
+      h1 {
+        color: #333;
+        font-family: "Font";
+      }
+
+      #game-container {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      #result {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+
+      #attempts {
+        margin-top: 10px;
+        color: #e40b0b;
+      }
+
+      #myButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#checkGuess:active {
+  background-color: #45a049; /* Darker green */
+}
+
+.checkGuess {
+  background-color: #007bff; /* Blue */
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.checkGuess:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+    </style>
+  </head>
+  <body>
+    <h1>Guess Number Game</h1>
+    <div id="game-container">
+      <label for="guess-input">Enter Your Guess :(1 to 100)</label>
+      <input type="number" id="guess-input" min="1" max="100" />
+      <button onclick="checkGuess()">Guess</button>
+      <div id="result"></div>
+      <div id="attempts"></div>
+    </div>
+
+    <script>
+      var secretNumber = 50;
+      var attempts = 0;
+      var maxAttempts = 10;
+      var resultElement = document.getElementById("result");
+      var attemptsElement = document.getElementById("attempts");
+
+      function checkGuess() {
+        var guessInput = document.getElementById("guess-input");
+        var guess = parseInt(guessInput.value);
+
+        if (isNaN(guess) || guess < 1 || guess > 100) {
+          resultElement.innerHTML = "Please Enter a Valid Number";
+          return;
+        }
+
+        if (guess < secretNumber) {
+          if (secretNumber - guess < 10) {
+            resultElement.innerHTML = "close, guess more";
+          } else {
+            resultElement.innerHTML = "guess more";
+          }
+        } else if (guess > secretNumber) {
+          if (guess - secretNumber < 10) {
+            resultElement.innerHTML = "close, guess less";
+          } else {
+            resultElement.innerHTML = "guess less";
+          }
+        } else {
+          resultElement.innerHTML = "WellDone! You Won!";
+          guessInput.disabled = true;
+          guessInput.style.display = "none";
+        }
+
+        attempts++;
+        attemptsElement.innerHTML = "Your Tries " + attempts;
+
+        if (attempts === maxAttempts) {
+          resultElement.innerHTML =
+            "The Game is Over : There is Your Attempts " + secretNumber;
+          guessInput.disabled = true;
+          guessInput.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
