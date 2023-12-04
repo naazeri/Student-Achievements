@@ -2,30 +2,82 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Appreciation</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Appreciation</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="center">
-        <br>
-        <br>
-        <br>
-        <image class="aksme" src="image/thanks.png" alt="Notfound"/>
-        <div>
+    <header class="container">
+        <div class="page-header">
+            <div class="Sentence">
+                <h2>☠️Towards interest and success☠️</h2>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="../index.html"  class="active" style="--navAni:1">Home</a></li>
+                <li><a href="../About Me/index.html" style="--navAni:2">About Me</a></li>
+                <li><a href="../My Projects/index.html" style="--navAni:3">My Projects</a></li>
+                <li><a href="../Games/index.html" style="--navAni:4">Games</a></li>
+                <li><a href="../Appreciation/index.html" style="--navAni:5">Appreciation</a></li>
+            </ul>
+            <label class="mode">
+                <input type="checkbox" id="darkModeToggle">
+                <i class='bx bxs-moon'></i>
+            </label>
         </div>
-        <h2 class="matn">Thank you very much to the teacher, Mr. Nazeri, who helped me. The link to my teacher's website is below</h2>
-        <br>
-        <a href="http://naazeri.ir/"><h2>Click to see</h2></a>
-        <br>
-        <h2 class="matn">And I am currently studying at Khosbayan School. The link to the school's website is also below</h2>
-        <br>
-        <a href="https://kh-sc.ir/"><h2>Click to see</h2></a>
-    </div>
-  </div>
+    </header>
+
+
+    <section class="container">
+        <div class="main">
+            <div class="images">
+                <img src="image/thanks.png" alt="Not Found" class="img-w">
+                <span class="bg-effect-1">
+                <span class="bg-effect-1"></span>
+
+                </span>
+            </div>
+            <div class="detail">
+                <h3>This,is</h3>
+                <h1><span style="color:aqua;">My</span> Appreciation</h1> 
+                <p>Thank you very much to the teacher, Mr. Nazeri, who taught me, and thank you very much to Hosh Bayan High School. The website of the teacher and Hosh Bayan School is below.👇
+                </p>  
+                <div class="social">
+                    <a href="http://naazeri.ir/"><img class="img-i" src="image/Nazeri image.png" alt="Not Found"></a>
+                    <a href="https://kh-sc.ir/"><img class="img-i" src="image/logo-madrese1-150x150.png" alt="Not Found"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+        const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+        if (isDarkMode) {
+            body.classList.add('dark-mode');
+            darkModeToggle.checked = true;
+        }
+        darkModeToggle.addEventListener('change', () => {
+            if (darkModeToggle.checked) {
+                body.classList.add('dark-mode');
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        });
+    </script>
 </body>
 
 </html>

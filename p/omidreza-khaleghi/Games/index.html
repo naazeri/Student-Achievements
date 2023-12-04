@@ -2,29 +2,85 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Games</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Games</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="center">
-        <br>
-        <br>
-        <br>
-        <image class="aksme" src="image/Vg_icon.svg.png" alt="Notfound"/>
-        <div>
+    <header class="container">
+        <div class="page-header">
+            <div class="Sentence">
+                <h2>☠️Towards interest and success☠️</h2>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="../index.html"  class="active" style="--navAni:1">Home</a></li>
+                <li><a href="../About Me/index.html" style="--navAni:2">About Me</a></li>
+                <li><a href="../My Projects/index.html" style="--navAni:3">My Projects</a></li>
+                <li><a href="../Games/index.html" style="--navAni:4">Games</a></li>
+                <li><a href="../Appreciation/index.html" style="--navAni:5">Appreciation</a></li>
+            </ul>
+            <label class="mode">
+                <input type="checkbox" id="darkModeToggle">
+                <i class='bx bxs-moon'></i>
+            </label>
         </div>
-        <br>
-        <a class="pic" href="snake/index.html"><img class="pic" src="image/Slither.png" alt="Notfound"></a>
-        <a class="pic" href="mini number/index.html"><img class="pic" src="image/1200px-Gold_medal_icon.svg.png" alt="Notfound"></a>
-        <a href="New folder/indext.html"><img class="pic" src="image/1200px-Soccerball.svg.png" alt="Notfound"></a>
-        <a href="guessing game/index.html"><img class="pic" src="image/Blue_question_mark_icon.svg.png" alt="Notfound"></a>
-        <a href="box game/index.html"><img class="pic" src="image/unnamed.png" alt="Notfound"></a>
-    </div>
-  </div>
+    </header>
+
+
+    <section class="container">
+        <div class="main">
+            <div class="images">
+                <img src="image/Vg_icon.svg.png" alt="Not Found" class="img-w">
+                <span class="bg-effect-1">
+                <span class="bg-effect-1"></span>
+
+                </span>
+            </div>
+            <div class="detail">
+                <h3>This, is</h3>
+                <h1><span style="color:aqua;">Web</span> Games</h1> 
+                <p>Here I put my web games for you dear ones that you can play and enjoy them. Their link is below.👇
+                </p>  
+                <div class="social">
+                    <a href="snake/index.html"><img class="img-i" src="image/Slither.png" alt="Not Found"></a>
+                    <a href="mini number/index.html"><img class="img-i" src="image/1200px-Gold_medal_icon.svg.png" alt="Not Found"></a>
+                    <a href="New folder/indext.html"><img class="img-i" src="image/1200px-Soccerball.svg.png" alt="Not Found"></a>
+                    <a href="guessing game/index.html"><img class="img-i" src="image/Blue_question_mark_icon.svg.png" alt="Not Found"></a>            
+                    <a href="box game/index.html"><img class="img-i" src="image/box game.png" alt="Not Found"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+        const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+        if (isDarkMode) {
+            body.classList.add('dark-mode');
+            darkModeToggle.checked = true;
+        }
+        darkModeToggle.addEventListener('change', () => {
+            if (darkModeToggle.checked) {
+                body.classList.add('dark-mode');
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        });
+    </script>
 </body>
 
 </html>

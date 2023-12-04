@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>About Me</title>
 </head>
@@ -22,9 +23,13 @@
                     <i class='bx bx-menu'></i>
                 </div>
             </label>
-            <div class="Specifications">
-                <h2>My profile is as follows👇</h2>
-            </div>
+            <ul>
+                <li><a href="../index.html"  class="active" style="--navAni:1">Home</a></li>
+                <li><a href="../About Me/index.html" style="--navAni:2">About Me</a></li>
+                <li><a href="../My Projects/index.html" style="--navAni:3">My Projects</a></li>
+                <li><a href="../Games/index.html" style="--navAni:4">Games</a></li>
+                <li><a href="../Appreciation/index.html" style="--navAni:5">Appreciation</a></li>
+            </ul>
             <label class="mode">
                 <input type="checkbox" id="darkModeToggle">
                 <i class='bx bxs-moon'></i>
@@ -35,20 +40,28 @@
 
     <section class="container">
         <div class="main">
-            <div class="detail">
-                <h1>My <span style="color:aqua;">Biography</span></h1>
-                <br>
-                <p>Im an Iranian and I live in the beautiful city of Mashhad. I was born in 1385. Im currently studying computer science at KhoshBayan School and Im very happy about it.Thank you for taking the time to read.</p>
+            <div class="images">
+                <img src="image/MyLogo.jpg" alt="Not Found" class="img-w">
+                <span class="bg-effect-1">
+                <span class="bg-effect-1"></span>
+
+                </span>
             </div>
-            <div class="img-sec">
-                <br>
-                <br>
-                <div class="images">
-                    <img src="image/MyLogo.jpg" alt="" class="img-w">
+            <div class="detail">
+                <h3>This,is</h3>
+                <h1><span style="color:aqua;">My</span> Biography</h1> 
+                <p>Im an Iranian and I live in the beautiful city of Mashhad. I was born in 1385. Im currently studying computer science at KhoshBayan School and Im very happy about it.Thank you for taking the time to read.You can see explanations about my city and my country in the links below👇
+                </p>  
+                <div class="social">
+                    <a href="https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86"><img class="img-i" src="image/Iran_(orthographic_projection).svg.png" alt="Not Found"></a>
+                    <a href="https://fa.wikipedia.org/wiki/%D9%85%D8%B4%D9%87%D8%AF"><img class="img-i" src="image/emam reza.png" alt="Not Found"></a>
+                    <a href="https://fa.wikipedia.org/wiki/%D8%AA%D9%87%D8%B1%D8%A7%D9%86"><img class="img-i" src="image/milad tower.png" alt="Not Found"></a>
+                    <a href="https://fa.wikipedia.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3%DB%8C"><img class="img-i" src="image/ferdosi.png" alt="Not Found"></a>            
                 </div>
             </div>
         </div>
     </section>
+
     <script>
         const darkModeToggle = document.getElementById('darkModeToggle');
         const body = document.body;
@@ -67,7 +80,6 @@
             }
         });
     </script>
-    
 </body>
 
 </html>
