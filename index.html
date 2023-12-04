@@ -32,11 +32,9 @@
               />
               <div class='card-body'>
                 <h5 class='card-title text-light'>{{firstName}} {{lastName}}</h5>
-                {{#if website }}
-                <a href="https://{{website}}" target="_blank">
-                  <p class='card-text'>{{website}}</p>
+                <a href="{{#if website}}https://{{website}}{{else}}./p/{{slug}}{{/if}}" target="_blank">
+                  <p class='card-text'>{{website}} </p>
                 </a>
-                {{/if }}
               </div>
             </div>
           </a>
