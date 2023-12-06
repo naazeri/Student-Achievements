@@ -1,0 +1,20 @@
+.label{
+    margin-left: 598px;
+    margin-top:200px;
+}
+ body{
+    background-image: url(eyse.webp);
+    background-size: cover;
+ }
+ label{font-size: x-large;
+font-family: fantasy;}
+
+ input{
+    width: 135px;
+    height: 19px;
+ }
+ .sub{
+    margin: left 0px;
+    width: 210px;
+    height: 29px;
+ }

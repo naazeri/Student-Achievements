@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bazi.css">
+  </head>
+  <body>
+    <div class="label">
+    <label for="">user1</label>
+    <input type="password" id="user1" />
+    <br />
+    <br>
+    <label    for="">user2</label>
+    <input type="number" id="user2" />
+ <br>
+ <br>
+    <input class="sub" type="button" value="Sumbit" id="guess" onclick="main()" />
+  </div>
+
+    <div id="res"></div>
+    <script>
+      var Count = 0;
+      function main() {
+        while (Count < 10) {
+          var num1 = document.getElementById("user1").value;
+          var num2 = document.getElementById("user2").value;
+          var result = document.getElementById("guess");
+          var res = document.getElementById("res");
+          if (num2 < 1 || num2 > 100) {
+            alert("حدس باید بین ۱ تا ۱۰۰ باشد!");
+            continue;
+          }
+
+          Count++;
+
+          if (num2 === num1) {
+            alert("تبریک شما برنده بازی شدید ");
+           
+            break;
+          } else if (Count === 10) {
+            alert(" بازی تمام شد و نفر اول برنده شد ");
+            
+            break;
+          } else if (num2 > num1 && num2 - num1 < 10) {
+            alert("نزدیک شدی، کمتر حدس بزن");
+           
+          } else if (num2 > num1) {
+            alert("کمتر حدس بزن");
+           
+          } else if (num1 - num2 < 10) {
+            alert("نزدیک شدی، بیشتر حدس بزن");
+            
+          } else {
+            alert("بیشتر حدس بزن");
+           
+          }
+          return;
+        }
+      }
+    </script>
+  </body>
+</html>

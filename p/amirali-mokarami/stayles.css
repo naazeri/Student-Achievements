@@ -46,3 +46,13 @@ h1{
     height: 35px;
     color: rgb(0, 243, 231);
 }
+.logo1{
+    margin-left:-490px;
+    margin-top: 400px;
+    width: 45px;
+    height: 45px;
+    color: rgb(0, 243,231);
+}
+#res{
+    margin-left: 500px;
+}
