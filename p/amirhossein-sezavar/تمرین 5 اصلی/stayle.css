@@ -1,0 +1,42 @@
+body{
+  background: url(Screenshot\ 2023-10-28\ 005048.png) ;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.user{
+  background-position: center;
+  background: transparent;
+margin-left: 650px;
+margin-top: 200px;
+margin-top: 150px;;
+}
+h2{
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  margin-right: 650px;
+  margin-left: -50px;
+}
+.input-submit{
+  background-color:blue;
+}
+.amir{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-right: 700px;
+}
+.input{
+  width: 20%;
+  height: 30px;
+  font-size: 16px;
+
+  
+  border: 2px;
+  border-radius: 30px;
+  outline: none;
+  /* background-color:rgba(0, 0, 0, 0.655) */
+}
