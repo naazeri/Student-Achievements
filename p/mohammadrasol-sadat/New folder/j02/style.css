@@ -24,10 +24,11 @@ header {
   text-align: center;
   border: 2px rgb(195, 185, 185) solid;
   border-radius: 25px;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-right: 30px;
-  padding-bottom: 35px;
+  padding-bottom: 50px;
   margin: 20px 30px;
+  size: 50px;
   background-color: rgb(193, 183, 183);
 }
 
@@ -99,6 +100,5 @@ footer {
 }
 .s20{
   background-color: #ffffff;
-
-
+}
 
