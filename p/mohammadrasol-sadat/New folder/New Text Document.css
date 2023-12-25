@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(img/me.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div{
+    background-color: rgba(206, 212, 212, 0);
+}
+head{
+    text-align: center;
+}
+h1{
+    text-align: center;
+   color: aqua;
+}
+.aaa{
+    background-image: url(img/calculator.png);
+    padding: 50px;
+    background-size: contain;
+
+}
+.bbb{
+    background-image: url(img/download.png);
+    padding: 50px;
+    background-size: contain;
+
+}
+.ccc{
+    background-image: url(img/icon-signin.png);
+    padding: 50px;
+    background-size: contain;
+
+
+}
+.sss{
+    background-image: url(img/happy-birthday.png);
+    padding: 50px;
+    background-size: contain;
+
+}
+.ddd{
+    background-image: url(img/6762050_big.jpg);
+    padding: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.vvv{
+    display: flex;
+    
+}
+.abc{
+    margin: 100px;
+}
