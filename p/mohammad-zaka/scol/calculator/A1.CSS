@@ -2,6 +2,10 @@ body {
     background-image: url(abstract-background-template-modern-bright-white-swirled-deco-Top.jpg);
     background-repeat: no-repeat;
     background-size: 1600px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .div {

@@ -1,50 +1,54 @@
 body {
   background-image: url(1.jpg);
-  background-repeat: no-repeat;
+  background-repeat: n-repeat;
   background-size: cover;
+
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  border: 5px solid black;
+  text-align: center;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .top10 {
-  border: 5px solid black;
-  width: 400px;
-  height: 600px;
-  margin-top: 50px;
-  border-radius: 30px;
-  margin-left: 10px;
   background-color: rgba(0, 0, 255, 0.605);
+
 }
 
 .calculator {
-  border: 5px solid black;
-  width: 400px;
-  height: 600px;
-  border-radius: 30px;
-  margin-top: -607px;
-  margin-left: 450px;
   background-color: rgba(0, 255, 51, 0.537);
+
 }
 
 .form {
-  border: 5px solid black;
-  width: 400px;
-  height: 600px;
-  border-radius: 30px;
-  margin-top: -607px;
-  margin-left: 880px;
   background-color: rgba(39, 255, 244, 0.532);
+
+}
+
+.number {
+  background-color: rgba(255, 39, 39, 0.532);
+
 }
 
 .TEX {
   text-align: center;
-  font-size: 50px;
-  margin-left: 50px;
+  font-size: 40px;
   border-radius: 10px;
 }
 
 .button {
   font-size: 30px;
-  margin-left: 150px;
-  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border-radius: 5px;
@@ -55,30 +59,12 @@ body {
 
 .img {
   width: 300px;
-  margin-left: 50px;
   border-radius: 10px;
   height: 300PX;
 }
 
-.button1 {
-  font-size: 30px;
-  margin-left: 20px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  box-shadow: 0px 0px 4px 6px black;
-  cursor: pointer;
-
-}
-
-.button2 {
-  font-size: 30px;
-  margin-left: 40px;
-  margin-top: 50PX;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  box-shadow: 0px 0px 4px 6px black;
-  cursor: pointer;
-
+button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: 0px 4px 0px 2px black
 }
