@@ -1,0 +1,40 @@
+@font-face {
+    font-family:'BNazanin' ;
+    src: url(font/BNazanin.ttf);
+}
+body{
+    
+    background-image: url(image/sark.jpg);
+    margin: 0;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.back{
+    background-color: rgba(0, 0, 0, 0.11);
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340;
+    text-align: center;
+
+    
+}
+
+.icon{
+    width: 60px;
+}
+.socials{
+    text-align: center;
+}
+

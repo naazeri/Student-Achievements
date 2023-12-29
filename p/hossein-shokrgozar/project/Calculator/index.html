@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <div class = "grid-container">
+        <div class = "calculator-grid ">
+          <textarea type="text" id = "inputtext" placeholder="0"></textarea>
+            <button>C</button>
+            <button>DEL</button>
+            <button>%</button>
+            <button>+</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>-</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>/</button>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+        </div>
+    </div>
+    <style>
+        body {  
+    background-color: #110f0f;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+}
+
+.calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 1px;
+    background-color: #999;
+} 
+
+.calculator-grid button {
+    font-size: 25px;
+    background-color: rgb(255, 227, 71); 
+    border: none;
+    cursor: pointer;
+    font-family: 'DM Mono', monospace;
+} 
+
+textarea {
+  grid-column: span 4;
+  font-family: 'DM Mono', monospace;
+  font-size: 25px;
+  text-align: end;
+  background-color: #a0a6bb;
+  padding: 15px;
+  border: none;
+}
+
+
+
+
+
+    </style>
+</body>
+</html>

@@ -1,0 +1,143 @@
+
+
+
+.for{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.game-description{
+    text-align: center;
+    font-weight: bold;
+    text-align: right;
+    direction: rtl;
+}
+
+.game-rank{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    background: rgb(255, 255, 255);
+    border: 2px rgb(238, 255, 0) solid;
+    border-radius: 20px;
+    display: inline;
+    padding: 10px;
+}
+
+
+.GTA{
+font-size: 28px;
+color: rgb(15, 0, 0);
+font-weight: bold;
+}
+.game-description{
+font-weight: bold;
+text-align: center;
+direction: rtl;
+color: rgb(255, 255, 255);
+font-size: large;
+}
+.game-card{
+text-align: center;
+border: 5px rgb(218, 221, 54) solid;
+border-radius: 25px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 35px;
+margin: 20px 30px;
+background-image: url(img/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+background-size: 70%;
+}
+.Name{
+    color:red
+}
+.game-list{
+    color: rgb(44, 39, 32);
+}
+header{
+    background-color: rgba(255, 230, 4, 0.74);
+    text-align: center;
+    padding: 70px;
+}
+.FiFA{
+    width: 250px;
+    
+}
+.for{
+    width: 200px;
+}
+.GTA{
+    width: 250px;
+}
+.Call{
+    width: 200px;
+}
+.UFC{
+    width: 200px;
+}
+.Mafia{
+    width: 200px;
+}
+
+.game-description{
+    font-weight: bold;
+    text-align:center;
+    direction: ltr;
+    text-shadow: 0ch;
+}
+
+
+.back{
+    background-color: black;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+  }
+  
+  td,
+  th {
+    border: 1px solid #c5c5c5;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e2e2e2;
+  }
+  
+  .text-green {
+   
+    color: rgb(0, 0, 0);
+  }
+  
+  .text-red {
+    color: red;
+  }
+  
+  footer {
+    text-align: center;
+    background: #ddd;
+    padding: 10px 0px;
+    margin-top: 50px;
+  }
+ body{
+    background-color: rgb(54, 55, 58);
+ }
+.text{
+    color: rgb(177, 214, 212);
+}
+.color{
+    color:rgb(255, 8, 181);
+}
+
+
+
+
+
+
+
+

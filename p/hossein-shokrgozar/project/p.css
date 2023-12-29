@@ -1,0 +1,19 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(113, 147, 163);
+    font-family: 'CHILLER';
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.text {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(226, 216, 78);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
