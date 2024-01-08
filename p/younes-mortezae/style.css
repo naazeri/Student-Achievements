@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image: url(bak1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 120px;
+}
+
+
+
+h1 {
+    width: fit-content;
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.profile {
+
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+
+.back-img {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.icons {
+
+    display: inline;
+    margin: auto;
+    text-align: center;
+
+}
+
+.img {
+    background-color: rgb(103, 116, 161);
+    border-radius: 11px;
+    margin: auto;
+    margin-top: 80px;
+    max-width: 60px;
+
+}
+
+.img2 {
+    background-color: rgb(103, 116, 161);
+    border-radius: 11px;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 60px;
+
+}

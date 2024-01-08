@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(bak.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+.form{
+    margin-top:6%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.874);
+    border-radius: 10px;
+    box-shadow: 4px 8px 20px 0px rgb(0, 0, 0);
+    width: 350px;
+    height: 600px;
+}
+.input{
+    padding: 8px;
+    background-color: rgb(84, 60, 172);
+}
+.lable{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+}
+.button{
+    height: 60px;
+    width: 150px;
+    background-color: rgb(54, 187, 244);
+    font-size: 20px;
+    border: none;
+    padding: 11px;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0px 8px 0px #498ec2,0px 8px 20px #222;
+    transition: all 0.2 ease;
+    
+}
+button:hover{
+   
+    background-color: #51cff2;
+}
+button:active{
+    box-shadow:none;
+    top:10px;
+}
