@@ -1,0 +1,70 @@
+body{
+    background-color:rgba(74, 74, 74, 0.5);
+
+
+}
+
+
+button{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    text-align: center;
+padding: 11px;
+text-decoration: none;
+border-radius: 15px 15px;
+background-color: #bab2b2e9;
+font-size: 20px;
+
+
+}
+.talebi{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: -20%;
+}
+.ff{
+    
+  margin-top: 160px;
+  margin-left: 500px;
+}
+.mm{
+    width: 375px;
+    height: 80px;
+}
+.r-one{
+    margin-left: 500px;
+    margin-top: 4px;
+}
+.r-two{
+    margin-top: 5px;
+    margin-left: 500px;
+}
+.amir{
+    margin-top: 5px;
+    margin-left: 500px;
+}
+.last{
+    margin-top: 6px;
+    margin-left: 500px;
+}
+.num:hover{
+    box-shadow: 0px 5px 0px #66adffaa, 0px 8px 20px #222222;
+    top: 7px;
+    background-color: #66cfff92;
+}
+.num:active{
+    box-shadow: none;
+    top: 10px;
+}
+
+.vs:hover{
+    box-shadow: 0px 5px 0px #0036e6ba, 0px 8px 20px #222222;
+    top: 7px;
+    background-color: #6675ffda;
+}    
+.vs:active{
+    box-shadow: none;
+    top: 10px;
+}
