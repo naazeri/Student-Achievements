@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "j2",
+			"path": "../j2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "j2"
+	}
+}
