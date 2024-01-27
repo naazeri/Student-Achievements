@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index3.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="menu">
+            <div class="menu-items">
+                <h1>ᴱˢᵖʳᵉˢˢᵒ..........¹$ <button onclick="order(1, 'Espresso')">order</h1>
+                <div>
+                    <h1>ᴹᵒᶜᶜᵃ..........²$ <button onclick="order(2 , 'Mocca')">order</button></h1>
+                </div>
+                <div>
+                    <h1>ᴸᵃᵗᵉ..........⁵$ <button onclick="order(5 , 'Late')">order</button></h1>
+                </div>
+                <div>
+                </div>
+            </div>
+            <br>
+            <div class="result">
+                <h3 id="total">total:0$</h3>
+            </div>
+            <br>
+            <h3 id="details"></h3>
+        </div>
+
+        <script>
+            var total = 0
+            function order(price, item) {
+                price = parseInt(price)
+                total = total + price
+                document.getElementById("total").innerHTML = "total:" + total + "$"
+                document.getElementById("details").innerHTML += "" + item + "<br>"
+                item=order+item
+
+            }
+        </script>
+
+</body>
+
+</html>
