@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <style>
-        *{
+        * {
             margin: 0;
             outline: none;
         }
-        body, html{
+
+        body,
+        html {
             height: 100%;
             background-image: url(img/Screenshot\ 2023-10-21\ 131057.png);
         }
-        form{
+
+        form {
             background: #fabb05;
             width: 250px;
             border-radius: 12px;
@@ -22,6 +26,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
         input[name="display"] {
             background: #fff;
             height: 40px;
@@ -32,93 +37,114 @@
             border: none;
             padding: 0 10px;
         }
+
         input[type="button"] {
             float: left;
-         width: calc(100% / 4 - 7px);
-         background: #fff;
-         border-radius: 8px;
-         height: 40px;
-         text-align: center;
-         margin: 0 0 5px 5px;
+            width: calc(100% / 4 - 7px);
+            background: #fff;
+            border-radius: 8px;
+            height: 40px;
+            text-align: center;
+            margin: 0 0 5px 5px;
         }
+
         input[type="button"]:nth-last-of-type(1) {
             background: #ff595e;
             border-color: #ff595e;
             width: calc(50% - 7px);
         }
-        input[class="del"]{
+
+        input[class="del"] {
             background: #ff595e;
             border-color: #ff595e;
         }
-        input[class="AC"]{
+
+        input[class="AC"] {
             background-color: #96e072;
             border-color: #96e072;
         }
-        input[class="percent"]{
+
+        input[class="percent"] {
             background-color: #1282a2;
             border-color: #1282a2;
         }
-        input[class="negative"]{
+
+        input[class="negative"] {
             background-color: #1282a2;
             border-color: #1282a2;
         }
-        input[class="num9"]{
+
+        input[class="num9"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="num8"]{
+
+        input[class="num8"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="num7"]{
+
+        input[class="num7"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="multiplied-by"]{
+
+        input[class="multiplied-by"] {
             background-color: #1282a2;
             border-color: #1282a2;
         }
-        input[class="num6"]{
+
+        input[class="num6"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="num5"]{
+
+        input[class="num5"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="num4"]{
+
+        input[class="num4"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="devide"]{
+
+        input[class="devide"] {
             background-color: #1282a2;
             border-color: #1282a2;
         }
-        input[class="num3"]{
+
+        input[class="num3"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="num2"]{
+
+        input[class="num2"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="num1"]{
+
+        input[class="num1"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="plus"]{
+
+        input[class="plus"] {
             background-color: #1282a2;
             border-color: #1282a2;
         }
-        input[class="num0"]{
+
+        input[class="num0"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        input[class="dott"]{
+
+        input[class="dott"] {
             background-color: #1EFFBC;
             border-color: #1EFFBC;
         }
-        footer{
+
+        footer {
             text-align: center;
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: large;
@@ -130,47 +156,49 @@
         }
     </style>
     <script>
-        function data (val){
+        function data(val) {
             calc.display.value += val;
         }
-        function AC(){
+        function AC() {
             calc.display.value = "";
         }
-        function del(){
-            calc.display.value = calc.display.value.slice(0 , -1);
+        function del() {
+            calc.display.value = calc.display.value.slice(0, -1);
         }
-        function equal(){
+        function equal() {
             calc.display.value = eval(calc.display.value);
         }
     </script>
 </head>
+
 <body>
     <form name="calc">
         <input type="text" value="" name="display">
-        <input type="button" value="AC"  onclick="AC()" class="AC">
+        <input type="button" value="AC" onclick="AC()" class="AC">
         <input type="button" value="DEL" onclick="del()" class="del">
-        <input type="button" value="%"   onclick="data(this.value)" class="percent">
-        <input type="button" value="-"   onclick="data(this.value)" class="negative">
-        <input type="button" value="9"   onclick="data(this.value)" class="num9">
-        <input type="button" value="8"   onclick="data(this.value)" class="num8">
-        <input type="button" value="7"   onclick="data(this.value)" class="num7">
-        <input type="button" value="*"   onclick="data(this.value)" class="multiplied-by">
-        <input type="button" value="6"   onclick="data(this.value)" class="num6">
-        <input type="button" value="5"   onclick="data(this.value)" class="num5">
-        <input type="button" value="4"   onclick="data(this.value)" class="num4">
-        <input type="button" value="/"   onclick="data(this.value)" class="devide">
-        <input type="button" value="3"   onclick="data(this.value)" class="num3">
-        <input type="button" value="2"   onclick="data(this.value)" class="num2">
-        <input type="button" value="1"   onclick="data(this.value)" class="num1">
-        <input type="button" value="+"   onclick="data(this.value)" class="plus">
-        <input type="button" value="0"   onclick="data(this.value)" class="num0">
-        <input type="button" value="."   onclick="data(this.value)" class="dott">
-        <input type="button" value="="   onclick="equal()" class="equal">
+        <input type="button" value="%" onclick="data(this.value)" class="percent">
+        <input type="button" value="-" onclick="data(this.value)" class="negative">
+        <input type="button" value="9" onclick="data(this.value)" class="num9">
+        <input type="button" value="8" onclick="data(this.value)" class="num8">
+        <input type="button" value="7" onclick="data(this.value)" class="num7">
+        <input type="button" value="*" onclick="data(this.value)" class="multiplied-by">
+        <input type="button" value="6" onclick="data(this.value)" class="num6">
+        <input type="button" value="5" onclick="data(this.value)" class="num5">
+        <input type="button" value="4" onclick="data(this.value)" class="num4">
+        <input type="button" value="/" onclick="data(this.value)" class="devide">
+        <input type="button" value="3" onclick="data(this.value)" class="num3">
+        <input type="button" value="2" onclick="data(this.value)" class="num2">
+        <input type="button" value="1" onclick="data(this.value)" class="num1">
+        <input type="button" value="+" onclick="data(this.value)" class="plus">
+        <input type="button" value="0" onclick="data(this.value)" class="num0">
+        <input type="button" value="." onclick="data(this.value)" class="dott">
+        <input type="button" value="=" onclick="equal()" class="equal">
         <div style="clear: both;">
-        </div>    
+        </div>
     </form>
     <footer>
-        <p>Powered by <a href="https://student.naazeri.ir/p/parham-khademzadeh">parhamgit</a></p>
+        <p>Powered by <a href="https://student.nazeriland.ir/p/parham-khademzadeh">parhamgit</a></p>
     </footer>
-    </body>
-        </html>
+</body>
+
+</html>
