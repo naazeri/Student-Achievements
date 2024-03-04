@@ -1,17 +1,15 @@
-body {
+body{
     padding: 0;
     margin: 0;
 }
-
-.backGround {
+.backGround{
     background-color: rgb(12, 115, 147);
     width: 100vw;
     height: 100vh;
     opacity: 100%;
     position: absolute;
 }
-
-.img {
+.img{
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -19,23 +17,20 @@ body {
     justify-content: center;
     margin-top: -100px;
 }
-
-.width {
+.width{
     width: 300px;
     height: 300px;
     border-radius: 70%;
-    object-fit: cover;
+    
 }
-
-.container {
+.container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 40px;
-    margin-top: -100px;
-    gap: 50px;
+    font-size: 45px;
+    margin-top: -95px;
+    gap: 45px;
 }
-
-a:hover {
+a:hover{
     color: black;
 }
